@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="bbb"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/standart.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="menu">
+      <div class="container flex__jc-sb flex__ai-c">
+        <ul class="menu__left-block">
+          <li class="menu__item logo">
+            <a href="#" class="menu__link">
+              <h1 class="logo__title">Randevu</h1>
+              <p class="logo__text">семейное кафе</p>
+            </a>
+          </li>
+          <li class="menu__item"><a href="#" class="menu__link">о нас</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">меню</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">оплата</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">доставка</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">контакты</a></li>
+        </ul>
+        <div class="menu__right-block">
+          <a href="" class="menu__link"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+          <a href="" class="menu__link"><i class="fa fa-search" aria-hidden="true"></i></a>
+          <a href="" class="menu__link"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </a>
+        </div>
+        <div class="toggle-box">
+          <div class="toggle" onclick="toggle()"></div>
+          <div class="mob-container">
+            <ul class="mob-menu">
+              <li class="mob-menu__item logo">
+                <a href="#" class="mob-menu__link">
+                  <h1 class="logo__title">Randevu</h1>
+                  <p class="logo__text">семейное кафе</p>
+                </a>
+              </li>
+              <li class="mob-menu__item"><a href="#" class="mob-menu__link" onclick="toggle()">о нас</a></li>
+              <li class="mob-menu__item"><a href="link/discription.html" class="mob-menu__link"
+              onclick="toggle()">меню</a></li>
+              <li class="mob-menu__item"><a href="link/discription.html" class="mob-menu__link"
+              onclick="toggle()">оплата</a></li>
+              <li class="mob-menu__item"><a href="link/discription.html" class="mob-menu__link"
+              onclick="toggle()">доставка</a></li>
+              <li class="mob-menu__item"><a href="link/discription.html" class="mob-menu__link"
+              onclick="toggle()">контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+	    <!-- Подключаем тогл -->
+  <script src="js/toggle.js"></script>
+</body>
 </html>
