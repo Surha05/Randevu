@@ -58,9 +58,21 @@
 }
 /* -----  END MENU   ----- */
 
+/* ----- ICON ----- */
 .icon-people {
-  color: red;
+  color: #333;
+  font-weight: bold;
 }
+.icon-search {
+  color: #333;
+  font-weight: bold;
+}
+
+.icon-shop {
+  color: #333;
+  font-weight: bold;
+}
+/* -----ICON END ----- */
 
 @media (max-width: 1024px) {
   /* -----  MENU  ----- */
