@@ -33,4 +33,9 @@ li {
   display: flex;
   align-items: center;
 }
+
+.flex__d-c {
+  display: flex;
+  flex-direction: column;
+}
 /* -----  END FLEX   ----- */
