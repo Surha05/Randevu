@@ -59,15 +59,18 @@
 .icon-people {
   color: #333;
   font-weight: bold;
+  font-size: 22px;
 }
 .icon-search {
   color: #333;
   font-weight: bold;
+  font-size: 22px;
 }
 
 .icon-shop {
   color: #333;
   font-weight: bold;
+  font-size: 22px;
 }
 /* ----- END ICON ----- */
 
@@ -152,7 +155,12 @@
   }
 
   .menu__right-block {
-    display: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 7px;
+    margin-right: 15px;
   }
   /* ----- END MENU ----- */
 
