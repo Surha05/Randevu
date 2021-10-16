@@ -35,15 +35,15 @@
 .active .toggle:before {
   top: 11px;
   transform: rotate(45deg);
-  box-shadow: 0 0 0 #fff;
-  background: #fff;
+  box-shadow: 0 0 0 #333;
+  background: #333;
 }
 
 .active .toggle:after {
   bottom: 12px;
   transform: rotate(-45deg);
-  box-shadow: 0 0 0 #fff;
-  background: #fff;
+  box-shadow: 0 0 0 #333;
+  background: #333;
 }
 
 .toggle-box {

@@ -79,26 +79,26 @@
 .rectangle-top {
   position: absolute;
   width: 400px;
-  height: 167px;
+  height: 147px;
   border: 1px solid #fff;
-  top: 15%;
+  top: 10%;
 }
 
 .banner-h2 {
   position: absolute;
   color: #fff;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: 5px;
   margin-top: 20px;
-  line-height: 70px;
+  line-height: 60px;
   margin-bottom: 20px;
-  top: 35%;
+  top: 30%;
 }
 
 .banner-h2 span {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 12px;
 }
@@ -106,9 +106,9 @@
 .rectangle-bottom {
   position: absolute;
   width: 400px;
-  height: 250px;
+  height: 350px;
   border: 1px solid #fff;
-  top: 60%;
+  top: 50%;
 }
 
 .banner-h3 {
@@ -117,8 +117,8 @@
   font-weight: 100;
   font-size: 25px;
   line-height: 40px;
-  top: 77%;
-  left: 7%;
+  top: 85%;
+  left: 8%;
 }
 
 .banner-h3 span {
@@ -135,6 +135,7 @@
   /* ----- BANNER ----- */
   .rectangle-top {
     width: 320px;
+    height: 147px;
   }
 
   .rectangle-bottom {
@@ -142,10 +143,17 @@
   }
 
   .banner-h3 {
-    top: 76%;
     left: 3%;
+    color: red;
   }
   /* ----- END BANNER ----- */
+}
+
+@media (max-width: 1440px) {
+  .banner-h3 {
+    left: 3%;
+    color: green;
+  }
 }
 
 @media (max-width: 1024px) {
