@@ -28,7 +28,7 @@
 .about__img-box {
   width: 100%;
   position: absolute;
-  bottom: -70px;
+  bottom: 0;
   right: 20px;
   background: #fff;
 }
