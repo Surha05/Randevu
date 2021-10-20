@@ -38,16 +38,15 @@
   left: 20px;
   top: 20px;
   right: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background: rgb(210, 204, 194);
   padding: 40px 0;
   z-index: 3;
 }
 
 .menu-cart__item {
-  min-width: 380px;
+  display: block;
   border-right: 1px solid rgb(168, 164, 157);
   padding-top: 20px;
   text-align: center;
@@ -60,6 +59,9 @@
 
 .menu-cart__img-box {
   margin-top: 60px;
+}
+
+.menu-card__img {
 }
 
 .menu-card-name {
@@ -76,10 +78,121 @@
   display: block;
   background-color: rgb(168, 164, 157);
   width: 182px;
-  height: 1px;
+  height: 2px;
   bottom: -30px;
   left: 26%;
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 1440px) {
+  .menu-cart__wrapper-top {
+    width: 1100px;
+    height: 1060px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 1100px;
+    height: 1040px;
+  }
+
+  .menu-cart__container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1224px) {
+  .menu-cart__wrapper-top {
+    width: 890px;
+    height: 1060px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 890px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .menu-cart__wrapper-top {
+    width: 790px;
+    height: 1060px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 790px;
+    height: 1040px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu-cart__title {
+    font-size: 36px;
+  }
+
+  .menu-cart__wrapper-top {
+    width: 700px;
+    height: 1620px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 700px;
+    height: 1595px;
+  }
+
+  .menu-cart__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu-card-name {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 850px) {
+  .menu-cart__wrapper-top {
+    width: 600px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-cart__title {
+    font-size: 24px;
+  }
+
+  .menu-cart__wrapper-top {
+    width: 500px;
+    height: 1420px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 500px;
+    height: 1361px;
+  }
+
+  .menu-card__img {
+    max-width: 220px;
+  }
+
+  .menu-card-name {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu-cart__wrapper-top {
+    width: 450px;
+    height: 1300px;
+  }
+
+  .menu-cart__wrapper-bottom {
+    width: 430px;
+    height: 1289px;
+    top: 170px;
+  }
+
+  .menu-card__img {
+    max-width: 180px;
+  }
 }
