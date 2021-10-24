@@ -1,0 +1,10 @@
+.working-hours {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: rgb(71, 71, 71);
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 659px;
+}
