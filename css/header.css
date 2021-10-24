@@ -283,3 +283,19 @@
     font-size: 10px;
   }
 }
+/* ----- END BANNER ----- */
+
+@media (max-width: 375px) {
+  /* ----- LOGO ----- */
+  .logo__title {
+    font-size: 23px;
+  }
+  /* ----- END LOGO ----- */
+  .menu__link {
+    margin-right: 10px;
+  }
+
+  .menu__link:last-child {
+    margin-right: 0;
+  }
+}
