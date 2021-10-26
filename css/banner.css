@@ -1,0 +1,8 @@
+.banner {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.banner__img {
+  max-width: 100%;
+}
