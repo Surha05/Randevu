@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: 260px;
+  margin-top: 290px;
 }
 
 .working-hours__title {
@@ -54,7 +54,7 @@
 
 @media (max-width: 768px) {
   .working-hours {
-    margin-top: 220px;
+    margin-top: 250px;
   }
 
   .working-hours__title {
@@ -76,7 +76,7 @@
 
 @media (max-width: 650px) {
   .working-hours {
-    margin-top: 140px;
+    margin-top: 170px;
   }
 }
 
@@ -100,24 +100,24 @@
 
 @media (max-width: 510px) {
   .working-hours {
-    margin-top: 190px;
+    margin-top: 210px;
   }
 }
 
 @media (max-width: 450px) {
   .working-hours {
-    margin-top: 150px;
+    margin-top: 180px;
   }
 }
 
 @media (max-width: 430px) {
   .working-hours {
-    margin-top: 160px;
+    margin-top: 190px;
   }
 }
 
 @media (max-width: 320px) {
   .working-hours {
-    margin-top: 130px;
+    margin-top: 150px;
   }
 }
