@@ -17,6 +17,7 @@
 
 .our-history__img {
   max-width: 100%;
+  box-shadow: 10px 10px 12px 2px rgba(87, 86, 86, 0.8);
 }
 
 .our-history__right-block {
