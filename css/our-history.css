@@ -68,6 +68,7 @@
 @media (max-width: 768px) {
   .our-history__title {
     font-size: 20px;
+    margin-bottom: 20px;
   }
 
   .our-history__text {
@@ -77,6 +78,7 @@
 
 @media (max-width: 576px) {
   .our-history {
+    padding: 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
