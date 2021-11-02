@@ -4,105 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/standart.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="icon.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="menu">
-        <div class="container flex__jc-sb flex__ai-c">
-          <ul class="menu__left-block">
-            <li class="menu__item logo">
-              <a href="#" class="menu__link">
-                <h1 class="logo__title">Randevu</h1>
-                <p class="logo__text">семейное кафе</p>
-              </a>
-            </li>
-            <li class="menu__item"><a href="#" class="menu__link">о нас</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">меню</a></li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">оплата</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">доставка</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">контакты</a>
-            </li>
-          </ul>
-          <div class="menu__right-block">
-            <a href="#" class="menu__link"><span class="icon-search"></span></a>
-            <a href="#" class="menu__link"><span class="icon-people"></span></a>
-            <a href="#" class="menu__link"><span class="icon-shop"></span></a>
-          </div>
-          <div class="toggle-box">
-            <div class="toggle" onclick="toggle()"></div>
-            <div class="mob-container">
-              <ul class="mob-menu">
-                <li class="mob-menu__item logo">
-                  <a href="#" class="mob-menu__link">
-                    <h1 class="logo__title">Randevu</h1>
-                    <p class="logo__text">семейное кафе</p>
-                  </a>
-                </li>
-                <li class="mob-menu__item">
-                  <a href="#" class="mob-menu__link" onclick="toggle()"
-                    >о нас</a
-                  >
-                </li>
-                <li class="mob-menu__item">
-                  <a
-                    href="link/discription.html"
-                    class="mob-menu__link"
-                    onclick="toggle()"
-                    >меню</a
-                  >
-                </li>
-                <li class="mob-menu__item">
-                  <a
-                    href="link/discription.html"
-                    class="mob-menu__link"
-                    onclick="toggle()"
-                    >оплата</a
-                  >
-                </li>
-                <li class="mob-menu__item">
-                  <a
-                    href="link/discription.html"
-                    class="mob-menu__link"
-                    onclick="toggle()"
-                    >доставка</a
-                  >
-                </li>
-                <li class="mob-menu__item">
-                  <a
-                    href="link/discription.html"
-                    class="mob-menu__link"
-                    onclick="toggle()"
-                    >контакты</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container flex__jc-c flex__ai-c">
-        <div class="rectangle-top"></div>
-        <h2 class="banner-h2">
-          окунись <br />
-          <span>в мир вкуса</span>
-        </h2>
-        <div class="rectangle-bottom"></div>
-        <h3 class="banner-h3">
-          Добро пожаловать <br />
-          <span>в Рандеву</span>
-        </h3>
-      </div>
-    </header>
+    <?php
+    include "static/header.php";
+    ?>
     <section class="about">
       <div class="container flex__jc-sb">
         <div class="about__left-block">
@@ -138,7 +47,7 @@
           <div class="menu-cart__wrapper-bottom"></div>
           <ul class="menu-cart__container">
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -405,40 +314,9 @@
         </p>
       </div>
     </section>
-    <footer class="footer">
-      <div class="footer__top-block">
-        <h1 class="footer__logo-title">Randevu</h1>
-        <p class="footer__logo-text">семейное кафе</p>
-      </div>
-      <div class="footer__bottom-block">
-        <div class="container">
-          <ul class="footer__menu flex__jc-sb flex__ai-c">
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">о нас</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">меню</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">оплата</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">доставка</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">контакты</a>
-            </li>
-            <li class="footer__menu-item">
-              <a href="#" class="footer__menu-link">авторизация</a>
-            </li>
-          </ul>
-        </div>
-        <div class="copyrightText-block">
-          <p class="copyrightText">Сайт создан на SURHA.ru</p>
-          <p class="copyrightText">Все права защищенны. Randevu. 2021</p>
-        </div>
-      </div>
-    </footer>
+    <?php
+    include "static/footer.php";
+    ?>
     <!-- Подключаем тогл -->
     <script src="js/toggle.js"></script>
   </body>

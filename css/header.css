@@ -31,13 +31,16 @@
 .menu {
   width: 100%;
   padding: 10px 0;
-  background: rgba(226, 221, 221, 0.65);
   display: flex;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+}
+.menu .container {
+  max-width: 1920px;
+  background: rgba(226, 221, 221, 0.65);
 }
 
 .menu__left-block {
