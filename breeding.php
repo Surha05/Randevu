@@ -9,10 +9,7 @@
 </head>
 <body>
   <?php
-  include "static/header.php";
-  ?>
-  <?php
-  include "static/footer.php";
+  include "static/menu.php";
   ?>
   
 </body>

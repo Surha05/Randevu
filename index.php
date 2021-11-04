@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="icon.css" />
     <title>Document</title>
   </head>
   <body>
-    <?php
-    include "static/header.php";
-    ?>
+  <header class="header">
+      <?php
+      include "static/menu.php";
+      ?>
+      <div class="container flex__jc-c flex__ai-c">
+        <div class="rectangle-top"></div>
+        <h2 class="banner-h2">
+          окунись <br />
+          <span>в мир вкуса</span>
+        </h2>
+        <div class="rectangle-bottom"></div>
+        <h3 class="banner-h3">
+          Добро пожаловать <br />
+          <span>в Рандеву</span>
+        </h3>
+      </div>
+    </header>
     <section class="about">
       <div class="container flex__jc-sb">
         <div class="about__left-block">
@@ -47,7 +62,7 @@
           <div class="menu-cart__wrapper-bottom"></div>
           <ul class="menu-cart__container">
             <li class="menu-cart__item">
-              <a href="breeding.php" class="menu-cart__link">
+              <a href="#" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"

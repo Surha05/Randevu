@@ -1,5 +1,4 @@
-<header class="header">
-      <div class="menu">
+<div class="menu">
         <div class="container flex__jc-sb flex__ai-c">
           <ul class="menu__left-block">
             <li class="menu__item logo">
@@ -9,7 +8,7 @@
               </a>
             </li>
             <li class="menu__item"><a href="#" class="menu__link">о нас</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">меню</a></li>
+            <li class="menu__item"><a href="../breeding.php" class="menu__link">меню</a></li>
             <li class="menu__item">
               <a href="#" class="menu__link">оплата</a>
             </li>
@@ -77,16 +76,3 @@
           </div>
         </div>
       </div>
-      <div class="container flex__jc-c flex__ai-c">
-        <div class="rectangle-top"></div>
-        <h2 class="banner-h2">
-          окунись <br />
-          <span>в мир вкуса</span>
-        </h2>
-        <div class="rectangle-bottom"></div>
-        <h3 class="banner-h3">
-          Добро пожаловать <br />
-          <span>в Рандеву</span>
-        </h3>
-      </div>
-    </header>
