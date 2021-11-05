@@ -29,15 +29,12 @@
 
 /* -----   MENU   ----- */
 .menu {
-  max-width: 1620px;
+  max-width: 1680px;
   margin: 0 auto;
-  padding: 10px 0;
   display: flex;
+  padding: 10px 0;
   align-items: center;
   z-index: 100;
-}
-.menu .container {
-  max-width: 1920px;
   background: rgba(226, 221, 221, 0.65);
 }
 

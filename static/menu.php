@@ -2,7 +2,7 @@
         <div class="container flex__jc-sb flex__ai-c">
           <ul class="menu__left-block">
             <li class="menu__item logo">
-              <a href="#" class="menu__link">
+              <a href="../index.php" class="menu__link">
                 <h1 class="logo__title">Randevu</h1>
                 <p class="logo__text">семейное кафе</p>
               </a>

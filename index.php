@@ -10,7 +10,7 @@
     <title>Document</title>
   </head>
   <body>
-  <header class="header">
+    <header class="header">
       <?php
       include "static/menu.php";
       ?>
