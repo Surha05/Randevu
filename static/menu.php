@@ -41,7 +41,7 @@
                 </li>
                 <li class="mob-menu__item">
                   <a
-                    href="link/discription.html"
+                    href="../breeding.php"
                     class="mob-menu__link"
                     onclick="toggle()"
                     >меню</a
