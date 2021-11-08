@@ -1,15 +1,24 @@
+.menu-background {
+  background: rgb(188, 182, 173);
+}
 .breeding {
   max-width: 1920px;
+  height: 100vh;
   margin: 0 auto;
   padding-top: 30px;
+  background: #e5e5e5;
 }
 
 .breeding__title {
   margin-bottom: 20px;
 }
+
+/* ----- РАДИО КНОПКИ ----- */
 .option {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(188, 182, 173);
 }
 .options__left {
   display: grid;
@@ -67,13 +76,56 @@ label {
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 0.1s ease-in;
-
-  /* display: none; */
 }
 
 .real__radio:checked + .gustom__radio::before {
   transform: translate(-50%, -50%) scale(1);
   border: 5px solid rgb(82, 34, 15);
+}
 
-  /* display: block; */
+/* ----- END РАДИО КНОПКИ ----- */
+
+/* ---- CARD ----- */
+
+.card {
+  display: grid;
+  grid-auto-flow: row;
+  padding-top: 30px;
+}
+.card-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.card__item {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 312px;
+}
+
+.card__img {
+  max-width: 100%;
+}
+
+.card__conrol {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.card__choice-quantity {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.card-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card__link figure {
+  text-align: center;
 }

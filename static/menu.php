@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu menu-background ">
         <div class="container flex__jc-sb flex__ai-c">
           <ul class="menu__left-block">
             <li class="menu__item logo">
