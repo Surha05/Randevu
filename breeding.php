@@ -96,20 +96,19 @@
             </li>
           </ul>
         </div>
-        <div class="card">
-          <ul class="card-top">
+          <ul class="card">
             <li class="card__item">
               <a href="" class="card__link">
-                  <img src="img/card/Фото.png" alt="" class="card__img">
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
@@ -117,16 +116,16 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <img src="img/card/Фото.png" alt="" class="card__img">
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
@@ -134,16 +133,16 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <img src="img/card/Фото.png" alt="" class="card__img">
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
@@ -151,16 +150,16 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <img src="img/card/Фото.png" alt="" class="card__img">
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
@@ -168,118 +167,106 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <img src="img/card/Фото.png" alt="" class="card__img">
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
             </li>
-          </ul>
-          <ul class="card-bottom">
             <li class="card__item">
               <a href="" class="card__link">
-                <figure>
-                  <img src="img/card/Фото.png" alt="" class="card__img">
-                </figure>
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копчю., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
-                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
                </div>
+               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                <figure>
-                  <img src="img/card/Фото.png" alt="" class="card__img">
-                </figure>
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копчю., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
-                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
                </div>
+               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                <figure>
-                  <img src="img/card/Фото.png" alt="" class="card__img">
-                </figure>
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копчю., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
-                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
                </div>
+               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                <figure>
-                  <img src="img/card/Фото.png" alt="" class="card__img">
-                </figure>
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копчю., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
-                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
                </div>
+               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
-           </li>
+            </li>
             <li class="card__item">
               <a href="" class="card__link">
-                <figure>
-                  <img src="img/card/Фото.png" alt="" class="card__img">
-                </figure>
+                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
-                <p class="desc">говядина копчю., курица копч., шампиньоны, сыр, соус 500г</p>
+                <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
               </a>
               <div class="card__conrol">
                <p class="card__price">370 р.</p>
                <div class="card__choice-quantity">
                 <button class="card__btn-minus">-</button>
-                <p class="card__button-quantity">1</p>
+                <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
-                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
                </div>
+               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
-           </li>
+            </li>
           </ul>
         </div>
       </div>

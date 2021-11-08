@@ -6,7 +6,7 @@
   height: 100vh;
   margin: 0 auto;
   padding-top: 30px;
-  background: #e5e5e5;
+  background: rgb(247, 247, 247);
 }
 
 .breeding__title {
@@ -88,14 +88,11 @@ label {
 /* ---- CARD ----- */
 
 .card {
-  display: grid;
-  grid-auto-flow: row;
-  padding-top: 30px;
-}
-.card-top {
+  padding-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .card__item {
@@ -107,25 +104,71 @@ label {
 
 .card__img {
   max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.card__subtitle {
+  font-size: 14px;
+  color: #7a7874;
+  margin-bottom: 15px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.card__desc {
+  font-size: 16px;
+  color: #7a7874;
+}
+
+.card__price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
 }
 
 .card__conrol {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 .card__choice-quantity {
   display: grid;
+  width: 80px;
   grid-auto-flow: column;
   justify-content: center;
+  border: 1px solid rgb(188, 182, 173);
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 25px;
 }
 
-.card-bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+.card__btn-minus,
+.card__btn-plus {
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.card__link figure {
+.card__quantity-value {
   text-align: center;
+  width: 30px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.card__basket {
+  display: grid;
+  align-items: center;
 }
