@@ -53,6 +53,7 @@
               <span class="gustom__radio"></span>
               <label for="options-hot" class="options__label">Горячие</label>
             </li>
+            <li class="options__mob-item">Фильтры</li>
           </ul>
           <ul class="options__right">
             <li class="options__item options__subtitle">Сортировать:</li>
@@ -94,6 +95,8 @@
                 >Дороже</label
               >
             </li>
+            <li class="options__mob-item">Сортировка</li>
+
           </ul>
         </div>
           <ul class="card">
@@ -113,6 +116,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -130,6 +134,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -147,6 +152,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -164,6 +170,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -181,6 +188,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -198,6 +206,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -215,6 +224,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -232,6 +242,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -249,6 +260,7 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
             <li class="card__item">
               <a href="" class="card__link">
@@ -266,12 +278,13 @@
                </div>
                <a href="#" class="card__basket"><span class="icon-shop"></span></a>
               </div>
+              <button class="card__mob-basket">В корзину</button>
             </li>
           </ul>
         </div>
       </div>
     </section>
-
+ 
     <script src="js/toggle.js"></script>
   </body>
 </html>
