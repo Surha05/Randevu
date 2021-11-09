@@ -99,7 +99,7 @@
 
           </ul>
         </div>
-          <ul class="card">
+        <ul class="card">
             <li class="card__item">
               <a href="" class="card__link">
                   <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
@@ -280,11 +280,12 @@
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
-          </ul>
-        </div>
+        </ul>
       </div>
     </section>
- 
+    <?php
+  include "static/footer.php"
+  ?>
     <script src="js/toggle.js"></script>
   </body>
 </html>
