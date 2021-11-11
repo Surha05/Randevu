@@ -1,29 +1,71 @@
 .footer {
   max-width: 1920px;
   margin: 0 auto;
+  background: #d7d2c9;
 }
 
 .footer__top-block {
-  background: rgb(208, 202, 193);
-  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #d7d2c9;
+}
+
+.footer__menu {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: start;
+  align-items: center;
+  height: 100px;
 }
 
 /* ----- LOGO ----- */
+
 .footer__logo-title {
   text-align: center;
-  font-size: 80px;
+  font-size: 48px;
   font-family: "Kaushan Script", sans-serif;
   color: #592607;
 }
 
 .footer__logo-text {
   text-align: center;
-  font-size: 36px;
-  padding-bottom: 20px;
+  font-size: 18px;
   color: #131212;
 }
 
 /* ----- END LOGO ----- */
+.footer__menu-item {
+  margin-right: 30px;
+  white-space: nowrap;
+}
+
+.footer__menu-item:last-child {
+  margin-right: 0;
+}
+.footer__menu-link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer__icon {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: end;
+  height: 100px;
+  align-items: center;
+}
+
+.footer__menu-icon {
+  margin-left: 20px;
+}
+
+.icon-instagram,
+.icon-Telegram,
+.icon-WhatsApp {
+  color: #333;
+  font-weight: bold;
+  font-size: 36px;
+}
 
 .footer__bottom-block {
   background: rgb(225, 222, 215);
@@ -32,12 +74,7 @@
 }
 
 /* ----- MENU ----- */
-.footer__menu-item {
-  font-size: 36px;
-  font-weight: bold;
-  color: #000000;
-  padding-bottom: 100px;
-}
+
 /* ----- END MENU */
 
 .copyrightText {
@@ -47,45 +84,7 @@
   color: #000000;
 }
 
-@media (max-width: 1024px) {
-  .footer__logo-title {
-    font-size: 64px;
-  }
-
-  .footer__logo-text {
-    font-size: 24px;
-    padding-bottom: 10px;
-  }
-
-  .copyrightText-block {
-    padding-top: 40px;
-  }
-
-  .footer__menu-item {
-    display: none;
-  }
-
-  .copyrightText {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer__logo-title {
-    font-size: 48px;
-  }
-
-  .footer__logo-text {
-    font-size: 18px;
-    padding-bottom: 5px;
-  }
-
-  .copyrightText {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1336px) {
   .footer__logo-title {
     font-size: 36px;
   }
@@ -94,7 +93,27 @@
     font-size: 14px;
   }
 
-  .copyrightText {
-    font-size: 10px;
+  .footer__menu-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__menu-item {
+    display: none;
+  }
+
+  .footer__logo {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__logo-title {
+    font-size: 30px;
+  }
+
+  .footer__logo-text {
+    font-size: 12px;
   }
 }

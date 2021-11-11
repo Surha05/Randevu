@@ -1,10 +1,10 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?nw3jaq");
-  src: url("../fonts/icomoon.eot?nw3jaq#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?nw3jaq") format("truetype"),
-    url("../fonts/icomoon.woff?nw3jaq") format("woff"),
-    url("../fonts/icomoon.svg?nw3jaq#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?ssix7e");
+  src: url("../fonts/icomoon.eot?ssix7e#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?ssix7e") format("truetype"),
+    url("../fonts/icomoon.woff?ssix7e") format("woff"),
+    url("../fonts/icomoon.svg?ssix7e#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,12 +26,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-search:before {
+.icon-instagram:before {
   content: "\e900";
 }
-.icon-shop:before {
+.icon-people:before {
   content: "\e901";
 }
-.icon-people:before {
+.icon-search:before {
   content: "\e902";
+}
+.icon-shop:before {
+  content: "\e903";
+}
+.icon-Telegram:before {
+  content: "\e904";
+}
+.icon-WhatsApp:before {
+  content: "\e905";
 }
