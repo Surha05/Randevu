@@ -352,7 +352,7 @@
   .icon-WhatsApp {
     color: #333;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .footer__subtitle {
@@ -412,5 +412,15 @@
 
   .footer__copyright {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .icon-instagram,
+  .icon-Telegram,
+  .icon-WhatsApp {
+    color: #333;
+    font-weight: bold;
+    font-size: 22px;
   }
 }
