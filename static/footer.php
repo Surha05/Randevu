@@ -3,7 +3,7 @@
     <div class="footer__top-block">
       <ul class="footer__menu">
         <li class="footer__menu-item footer__logo">
-          <a href="#" class="footer__menu-link">
+          <a href="#" class="footer__logo-link">
             <h1 class="footer__logo-title">Randevu</h1>
             <p class="footer__logo-text">семейное кафе</p>
           </a>
