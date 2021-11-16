@@ -31,6 +31,8 @@
   text-align: center;
   font-size: 18px;
   color: #131212;
+  position: relative;
+  top: -12px;
 }
 
 /* ----- END LOGO ----- */
