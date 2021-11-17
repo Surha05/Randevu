@@ -22,7 +22,7 @@
           <div class="menu__right-block">
             <a href="#" class="menu__link"><span class="icon-search"></span></a>
             <a href="#" class="menu__link"><span class="icon-people"></span></a>
-            <a href="#" class="menu__link"><span class="icon-shop"></span></a>
+            <a href="basket.php" class="menu__link"><span class="icon-shop"></span></a>
           </div>
           <div class="toggle-box">
             <div class="toggle" onclick="toggle()"></div>
