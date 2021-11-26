@@ -1,0 +1,143 @@
+.basket {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.basket__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.basket-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 30px;
+}
+
+.basket-control {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  border-bottom: 1px solid #c5c0b7;
+  padding-bottom: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.basket__label {
+  margin-left: 20px;
+}
+
+/* ----- BASKET CHEK -----  */
+.basket__check-box {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-left: 20px;
+}
+
+.icon-check {
+  width: 16px;
+  height: 16px;
+  margin-left: -20px;
+  border-radius: 5px;
+  color: #fff;
+  background: #fff;
+  border: 1px solid rgb(204, 200, 200);
+}
+
+.basket__check-box:checked + .icon-check {
+  background: #592607;
+  border: 1px solid #592607;
+}
+
+/* ----- END BASKET CHEK-----  */
+
+.basket__option__all {
+  font-size: 14px;
+  color: #333333;
+  margin-left: 10px;
+  margin-right: 65px;
+}
+
+.basket__option-delete {
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+  cursor: pointer;
+}
+
+.basket-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket__content-item {
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+}
+
+.basket__figure-box {
+  margin-left: 25px;
+  margin-right: 35px;
+}
+
+.basket__content-subtitle {
+  font-size: 14px;
+  color: #7a7874;
+}
+
+.basket__content-dish {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.basket__content-left {
+  display: flex;
+}
+
+.basket__content-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: end;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+
+.basket__choice-quantity {
+  display: flex;
+  justify-content: space-around;
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgb(204, 200, 200);
+  border-radius: 5px;
+}
+
+.basket__btn-minus,
+.basket__btn-plus {
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.basket__quantity-value {
+  text-align: center;
+  width: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.basket__price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}

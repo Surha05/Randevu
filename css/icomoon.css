@@ -1,10 +1,10 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?ssix7e");
-  src: url("../fonts/icomoon.eot?ssix7e#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?ssix7e") format("truetype"),
-    url("../fonts/icomoon.woff?ssix7e") format("woff"),
-    url("../fonts/icomoon.svg?ssix7e#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?c1mgfy");
+  src: url("../fonts/icomoon.eot?c1mgfy#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?c1mgfy") format("truetype"),
+    url("../fonts/icomoon.woff?c1mgfy") format("woff"),
+    url("../fonts/icomoon.svg?c1mgfy#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,21 +26,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-instagram:before {
+.icon-check:before {
   content: "\e900";
 }
-.icon-people:before {
+.icon-instagram:before {
   content: "\e901";
 }
-.icon-search:before {
+.icon-people:before {
   content: "\e902";
 }
-.icon-shop:before {
+.icon-search:before {
   content: "\e903";
 }
-.icon-Telegram:before {
+.icon-shop:before {
   content: "\e904";
 }
-.icon-WhatsApp:before {
+.icon-Telegram:before {
   content: "\e905";
+}
+.icon-WhatsApp:before {
+  content: "\e906";
 }
