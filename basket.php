@@ -30,11 +30,11 @@
           <div class="basket-content">          
             <ul class="basket__row">
              <li class="basket__content-item">
-              <label class="basket__label">
-                <input class="basket__check-box" type="checkbox" />
-                <span class="icon-check"></span>
-              </label>
               <div class="basket__content-left">
+                <label class="basket__label">
+                  <input class="basket__check-box" type="checkbox" />
+                  <span class="icon-check"></span>
+                </label>
                 <figure class="basket__figure-box">
                   <img src="img/basket/charcoal-chiken.png" alt="" class="charcoal-chiken">
                 </figure>
@@ -51,57 +51,108 @@
                 </div>
                 <p class="basket__price">600 руб.</p>
               </div>
-
+             </li>
+             <li class="basket__content-item">
+              <div class="basket__content-left">
+                <label class="basket__label">
+                  <input class="basket__check-box" type="checkbox" />
+                  <span class="icon-check"></span>
+                </label>
+                <figure class="basket__figure-box">
+                  <img src="img/basket/chudu.png" alt="" class="charcoal-chiken">
+                </figure>
+                <div class="basket__content-desc">
+                  <p class="basket__content-subtitle">Чуду и мучное</p>
+                  <p class="basket__content-dish">Чуду с говядиной и картофелем</p>
+                </div>
+              </div>
+              <div class="basket__content-right">
+                <div class="basket__choice-quantity">
+                  <button class="basket__btn-minus">-</button>
+                  <input value="1" class="basket__quantity-value">
+                  <button class="basket__btn-plus">+</button>
+                </div>
+                <p class="basket__price">370 руб.</p>
+              </div>
+             </li>
+             <li class="basket__content-item">
+              <div class="basket__content-left">
+                <label class="basket__label">
+                  <input class="basket__check-box" type="checkbox" />
+                  <span class="icon-check"></span>
+                </label>
+                <figure class="basket__figure-box">
+                  <img src="img/basket/charcoal-chiken.png" alt="" class="charcoal-chiken">
+                </figure>
+                <div class="basket__content-desc">
+                  <p class="basket__content-subtitle">Шашлыки</p>
+                  <p class="basket__content-dish">Курица на углях</p>
+                </div>
+              </div>
+              <div class="basket__content-right">
+                <div class="basket__choice-quantity">
+                  <button class="basket__btn-minus">-</button>
+                  <input value="1" class="basket__quantity-value">
+                  <button class="basket__btn-plus">+</button>
+                </div>
+                <p class="basket__price">600 руб.</p>
+              </div>
+             </li>
+             <li class="basket__content-item">
+              <div class="basket__content-left">
+                <label class="basket__label">
+                  <input class="basket__check-box" type="checkbox" />
+                  <span class="icon-check"></span>
+                </label>
+                <figure class="basket__figure-box">
+                  <img src="img/basket/chudu.png" alt="" class="charcoal-chiken">
+                </figure>
+                <div class="basket__content-desc">
+                  <p class="basket__content-subtitle">Чуду и мучное</p>
+                  <p class="basket__content-dish">Чуду с говядиной и картофелем</p>
+                </div>
+              </div>
+              <div class="basket__content-right">
+                <div class="basket__choice-quantity">
+                  <button class="basket__btn-minus">-</button>
+                  <input value="1" class="basket__quantity-value">
+                  <button class="basket__btn-plus">+</button>
+                </div>
+                <p class="basket__price">370 руб.</p>
+              </div>
              </li>
             </ul>
-
-             <!-- <ul class="basket__content-right">
-              <li class="basket__right-item">
-                <div class="basket__choice-quantity">
-                  <button class="basket__btn-minus">-</button>
-                  <input value="1" class="basket__quantity-value">
-                  <button class="basket__btn-plus">+</button>
-                </div>
-                <p class="basket__price">600 руб.</p>
-             </li>
-             <li class="basket__right-item">
-                <div class="basket__choice-quantity">
-                  <button class="basket__btn-minus">-</button>
-                  <input value="1" class="basket__quantity-value">
-                  <button class="basket__btn-plus">+</button>
-                </div>
-                <p class="basket__price">600 руб.</p>
-             </li> -->
-           </ul>
           </div>
         </div>
         <div class="basket-container__right">
-         <h2 class="basket__order-title">Ваш заказ
-         </h2>
-         <div class="basket__order-box">
-           <ul class="basket__order-name">
-             <li class="basket__order-item">Наименований</li>
-             <li class="basket__order-item">4</li>
-           </ul>
-           <ul class="basket__order-cost">
-             <li class="basket__order-item">Стоимость</li>
-             <li class="basket__order-item">1940 Р</li>
-           </ul>
-           <ul class="basket__order-delivery">
-             <li class="basket__order-item">Доставка</li>
-             <li class="basket__order-item">100 Р</li>
-           </ul>
-           <ul class="basket__order-reduction">
-             <li class="basket__order-item">Скидка</li>
-             <li class="basket__order-item">0 Р</li>
-           </ul>
-           <ul class="basket__order-all">
-             <li class="basket__order-item">Итого</li>
-             <li class="basket__order-item">1940 Р</li>
-           </ul>
+          <div class="basket__order">
+            <h2 class="basket__order-title">Ваш заказ
+            </h2>
+            <ul class="basket__order-items">
+              <li class="basket__order-item">
+                <p class="basket__order-name">Наименований</p>
+                <p class="basket__order-price">4</p>
+              </li>
+              <li class="basket__order-item">
+                <p class="basket__order-cost">Стоимость</p>
+                <p class="basket__order-price">1940 Р</p>
+              </li>
+              <li class="basket__order-item">
+                <p class="basket__order-delivery">Доставка</p>
+                <p class="basket__order-price">100</p>
+              </li>
+              <li class="basket__order-item">
+                <p class="basket__order-reduction">Скидка</p>
+                <p class="basket__order-price">0</p>
+              </li>
+              <li class="basket__order-item">
+                <p class="basket__order-all">Итого</p>
+                <p class="basket__order-price">1940</p>
+              </li>
+            </ul>
            <button class="basket__order-btn">Оформить заказ</button>
            <p class="basket__order-consent">Нажимая на кнопку, я даю свое согласие на обработку персональных данных</p>
-         </div>
+        </div>
         </div>
       </div>
     </div>
