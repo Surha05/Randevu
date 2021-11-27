@@ -36,7 +36,7 @@
                   <span class="icon-check"></span>
                 </label>
                 <figure class="basket__figure-box">
-                  <img src="img/basket/charcoal-chiken.png" alt="" class="charcoal-chiken">
+                  <img src="img/basket/charcoal-chiken.png" alt="" class="basket__img">
                 </figure>
                 <div class="basket__content-desc">
                   <p class="basket__content-subtitle">Шашлыки</p>
@@ -59,7 +59,7 @@
                   <span class="icon-check"></span>
                 </label>
                 <figure class="basket__figure-box">
-                  <img src="img/basket/chudu.png" alt="" class="charcoal-chiken">
+                  <img src="img/basket/chudu.png" alt="" class="basket__img">
                 </figure>
                 <div class="basket__content-desc">
                   <p class="basket__content-subtitle">Чуду и мучное</p>
@@ -82,7 +82,7 @@
                   <span class="icon-check"></span>
                 </label>
                 <figure class="basket__figure-box">
-                  <img src="img/basket/charcoal-chiken.png" alt="" class="charcoal-chiken">
+                  <img src="img/basket/charcoal-chiken.png" alt="" class="basket__img">
                 </figure>
                 <div class="basket__content-desc">
                   <p class="basket__content-subtitle">Шашлыки</p>
@@ -105,7 +105,7 @@
                   <span class="icon-check"></span>
                 </label>
                 <figure class="basket__figure-box">
-                  <img src="img/basket/chudu.png" alt="" class="charcoal-chiken">
+                  <img src="img/basket/chudu.png" alt="" class="basket__img">
                 </figure>
                 <div class="basket__content-desc">
                   <p class="basket__content-subtitle">Чуду и мучное</p>
