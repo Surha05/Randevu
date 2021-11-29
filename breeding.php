@@ -21,44 +21,49 @@
           <ul class="options__left">
             <li class="options__item options__subtitle">Фильтр:</li>
             <li class="options__item">
-              <input
-                id="options-all"
-                checked
-                type="radio"
-                value="options__all"
-                name="filter"
-                class="real__radio"
-              />
-              <span class="gustom__radio"></span>
-              <label for="options-all" class="options__label">Все</label>
+              <label class="options__label">
+                <input
+                  id="options-all"
+                  type="radio" 
+                  value="options__all"
+                  name="filter"
+                  class="real__radio"
+                /> Все
+                <span class="gustom__radio"></span>                
+              </label>
+              
             </li>
             <li class="options__item">
-              <input
-                id="options-cold"
-                type="radio"
-                value="options__cold"
-                name="filter"
-                class="real__radio"
-              />
-              <span class="gustom__radio"></span>
-              <label for="options-cold" class="options__label">Холодные</label>
+            <label class="options__label">
+                <input
+                  id="options-all"
+                  type="radio" 
+                  value="options__all"
+                  name="filter"
+                  class="real__radio"
+                /> Холодные
+                <span class="gustom__radio"></span>                
+              </label>
             </li>
             <li class="options__item">
-              <input
-                id="options-hot"
-                type="radio"
-                value="options__hot"
-                name="filter"
-                class="real__radio"
-              />
-              <span class="gustom__radio"></span>
-              <label for="options-hot" class="options__label">Горячие</label>
+            <label class="options__label">
+                <input
+                  id="options-all"
+                  type="radio" 
+                  value="options__all"
+                  name="filter"
+                  class="real__radio"
+                /> Горячие
+                <span class="gustom__radio"></span>                
+              </label>
             </li>
             <li class="options__mob-item">Фильтры</li>
           </ul>
           <ul class="options__right">
             <li class="options__item options__subtitle">Сортировать:</li>
             <li class="options__item">
+            <label class="options__label"
+                >Популярные
               <input
                 id="options-popular"
                 checked
@@ -68,11 +73,11 @@
                 class="real__radio"
               />
               <span class="gustom__radio"></span>
-              <label for="options-popular" class="options__label"
-                >Популярные</label
+              </label
               >
             </li>
             <li class="options__item">
+            <label class="options__label">Дешевле
               <input
                 id="options-cheap"
                 type="radio"
@@ -81,9 +86,11 @@
                 class="real__radio"
               />
               <span class="gustom__radio"></span>
-              <label for="options-cheap" class="options__label">Дешевле</label>
+              </label>
             </li>
             <li class="options__item">
+            <label class="options__label options__label-last"
+                >Дороже
               <input
                 id="options-expensive"
                 type="radio"
@@ -92,8 +99,7 @@
                 class="real__radio"
               />
               <span class="gustom__radio"></span>
-              <label for="options-expensive" class="options__label"
-                >Дороже</label
+              </label
               >
             </li>
             <li class="options__mob-item">Сортировка</li>

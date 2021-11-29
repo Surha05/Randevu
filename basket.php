@@ -131,7 +131,7 @@
             <ul class="basket__order-items">
               <li class="basket__order-item">
                 <p class="basket__order-name">Наименований</p>
-                <p class="basket__order-price">4</p>
+                <p class="basket__order-price">4 Р</p>
               </li>
               <li class="basket__order-item">
                 <p class="basket__order-cost">Стоимость</p>
@@ -139,15 +139,15 @@
               </li>
               <li class="basket__order-item">
                 <p class="basket__order-delivery">Доставка</p>
-                <p class="basket__order-price">100</p>
+                <p class="basket__order-price">100 Р</p>
               </li>
               <li class="basket__order-item">
                 <p class="basket__order-reduction">Скидка</p>
-                <p class="basket__order-price">0</p>
+                <p class="basket__order-price">0 Р</p>
               </li>
               <li class="basket__order-item">
                 <p class="basket__order-all">Итого</p>
-                <p class="basket__order-price">1940</p>
+                <p class="basket__order-price">1940 Р</p>
               </li>
             </ul>
            <button class="basket__order-btn">Оформить заказ</button>
@@ -160,5 +160,7 @@
   <?php
   include "static/footer.php";
   ?>
+  <!-- Подключаем тогл -->
+  <script src="js/toggle.js"></script>
 </body>
 </html>

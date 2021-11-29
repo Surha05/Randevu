@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="icon.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body> 
     <header class="header">
       <?php
       include "static/menu.php";
