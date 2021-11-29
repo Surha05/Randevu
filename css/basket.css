@@ -153,7 +153,90 @@
 }
 /* ----- END BASKET-CONTAINER__LEFT ----- */
 
+/* ----- FORM ----- */
+
+.form {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.form__title {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.form__title::before {
+  content: "1";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #c5c0b7;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.form__body {
+  width: 100%;
+  background: rgba(227, 224, 218, 50%);
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.form__box-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 25px;
+  gap: 30px;
+}
+
+.form__label {
+  font-size: 18px;
+}
+
+.form__label span {
+  color: red;
+}
+
+.form__input {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid #c5c0b7;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #d7d2c9;
+  padding-left: 10px;
+}
+
+.form-title-delivery::before {
+  content: "2";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #c5c0b7;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
 /* ----- BASKET-CONTAINER__RIGHT ----- */
+
 .basket-container__right {
   margin-top: 25px;
   background: #fff;
@@ -223,6 +306,8 @@
   line-height: 24px;
 }
 
+/* ----- END BASKET-CONTAINER__RIGHT ----- */
+
 @media (max-width: 1366px) {
   .basket__order {
     width: 350px;
@@ -230,6 +315,7 @@
 }
 
 @media (max-width: 1112px) {
+  /* ----- BASKET -----  */
   .basket-container {
     grid-template-columns: 1fr;
   }
@@ -258,9 +344,22 @@
   .basket__content-dish {
     font-size: 16px;
   }
+
+  /* ----- END BASKET ----- */
+
+  /* ----- FORM ----- */
+  .form__label {
+    font-size: 16px;
+  }
+
+  .form__input {
+    font-size: 16px;
+  }
+  /* ----- END FORM ----- */
 }
 
 @media (max-width: 768px) {
+  /* ----- BASKET ----- */
   .basket__content-item {
     display: grid;
     grid-template-columns: 1fr;
@@ -283,6 +382,28 @@
   .basket__price {
     justify-self: flex-end;
   }
+
+  /* ----- END BASKET ----- */
+
+  /* ----- FORM ----- */
+  .form {
+    padding-left: 0px;
+  }
+
+  .form__title {
+    font-size: 20px;
+  }
+
+  .form__title::before {
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+  }
+
+  .form__box-top {
+    grid-template-columns: 1fr;
+  }
+  /* ---- END FORM ----  */
 }
 
 @media (max-width: 447px) {

@@ -123,6 +123,30 @@
              </li>
             </ul>
           </div>
+          <div class="form-wrapper"> 
+            <h2 class="form__title">Данные покупателя</h2>
+            <div class="form">
+              <form action="#" id="form" class="form__body">
+                <div class="form__box-top">
+                  <div class="form__item">
+						        <label for="formName" class="form__label">Имя<span>*</span></label>
+						        <input id="formName" type="text" placeholder="Имя" name="name" class="form__input">
+					        </div>
+                  <div class="form__item">
+						        <label for="formPhone" class="form__label">Телефон<span>*</span></label>
+						        <input id="formPhone" type="text" name="phone" class="form__input">
+					        </div>
+                </div>
+                <div class="form__box-bottom">
+                  <div class="form__item">
+						        <label for="formEmail" class="form__label">E-mail:</label>
+						        <input id="formEmail" type="text" placeholder="E-mail"  name="email" class="form__input">
+					        </div>
+                </div> 
+              </form>
+            </div>
+            <h2 class="form__title form-title-delivery">Cпособ доставки</h2>
+          </div>
         </div>
         <div class="basket-container__right">
           <div class="basket__order">
@@ -152,7 +176,6 @@
             </ul>
            <button class="basket__order-btn">Оформить заказ</button>
            <p class="basket__order-consent">Нажимая на кнопку, я даю свое согласие на обработку персональных данных</p>
-        </div>
         </div>
       </div>
     </div>
