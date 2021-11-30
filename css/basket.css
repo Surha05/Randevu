@@ -151,7 +151,6 @@
   font-weight: bold;
   color: #333333;
 }
-/* ----- END BASKET-CONTAINER__LEFT ----- */
 
 /* ----- FORM ----- */
 
@@ -218,7 +217,7 @@
   padding-left: 10px;
 }
 
-.form-title-delivery::before {
+.form__title-delivery::before {
   content: "2";
   display: inline-flex;
   align-items: center;
@@ -234,6 +233,165 @@
   border-radius: 50%;
   margin-right: 20px;
 }
+
+/* ----- FORM-DELIVERY ----- */
+.form-control__pickup {
+  padding: 30px;
+  background: rgba(229, 229, 229, 50%);
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.form-control__label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form__real-radio {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-left: 20px;
+}
+
+.form__gustom-radio {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: text-bottom;
+  margin-left: -30px;
+}
+
+.form__real-radio:checked + .form__gustom-radio::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  /* выравниваем по центру */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.1s ease-in;
+  transform: translate(-50%, -50%) scale(1);
+  border: 5px solid rgb(82, 34, 15);
+}
+
+.form-control__text {
+  margin: 15px 0 0 30px;
+  font-size: 14px;
+}
+
+.form-control__delivery {
+  padding: 30px;
+  background: rgba(229, 229, 229, 50%);
+  border-radius: 16px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.form__map {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.icon-map {
+  font-size: 16px;
+}
+
+.form__map-text {
+  font-size: 14px;
+  color: #592607;
+  margin-left: 18px;
+  margin-right: 10px;
+  border-bottom: 1px solid #592607;
+  cursor: pointer;
+}
+
+.form__body-delivery {
+  margin-top: 20px;
+}
+
+.icon-Union {
+  font-size: 5px;
+  cursor: pointer;
+}
+
+.form-control__item {
+  display: grid;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.form-control__item:last-child {
+  margin-bottom: 0px;
+}
+
+.form__label-item {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.form__label-item span {
+  color: red;
+}
+
+.form__input-item {
+  height: 50px;
+  border: 1px solid #c5c0b7;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #d7d2c9;
+}
+
+.form__input-comment {
+  height: 80px;
+  padding-bottom: 30px;
+}
+
+/* ----- END FORM-DELIVERY ----- */
+
+/* ----- FORM-PAY ----- */
+.form__title-pay::before {
+  content: "3";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #c5c0b7;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.form-control__pay-online,
+.form-control__pay-cart {
+  padding: 30px;
+  background: rgba(229, 229, 229, 50%);
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+/* ----- END BASKET-CONTAINER__LEFT ----- */
 
 /* ----- BASKET-CONTAINER__RIGHT ----- */
 
@@ -305,8 +463,14 @@
   color: #000033;
   line-height: 24px;
 }
-
 /* ----- END BASKET-CONTAINER__RIGHT ----- */
+
+/* ----- BASKET-CONTAINER__BOTTOM  */
+
+.basket-container__bottom {
+  display: none;
+}
+/* ----- END BASKET-CONTAINER__BOTTOM  */
 
 @media (max-width: 1366px) {
   .basket__order {
@@ -355,7 +519,37 @@
   .form__input {
     font-size: 16px;
   }
+
+  .form-control__label {
+    font-size: 16px;
+  }
+
+  .form__map-text {
+    font-size: 13px;
+    margin-left: 13px;
+  }
+
+  .form__label-item {
+    font-size: 16px;
+  }
+
+  .form__input-item {
+    font-size: 16px;
+  }
+
   /* ----- END FORM ----- */
+
+  /* ----- BASKET-CONTAINER__BOTTOM ----- */
+  .basket-container__bottom {
+    display: block;
+  }
+
+  .basket__order {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 16px 40px rgba(53, 54, 53, 0.3);
+    border-radius: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -403,6 +597,11 @@
   .form__box-top {
     grid-template-columns: 1fr;
   }
+
+  .form-control__item {
+    margin-left: 0px;
+  }
+
   /* ---- END FORM ----  */
 }
 
@@ -434,6 +633,24 @@
 
   .basket__price {
     font-size: 14px;
+  }
+
+  /* ---- FORM ----- */
+
+  .form__body {
+    padding: 15px;
+  }
+  .form-control__pickup {
+    padding: 30px 15px;
+  }
+
+  .form-control__delivery {
+    padding: 30px 15px;
+  }
+
+  .form-control__pay-online,
+  .form-control__pay-cart {
+    padding: 30px 15px;
   }
 }
 
@@ -473,6 +690,13 @@
 
   .basket__price {
     font-size: 12px;
+  }
+
+  /* ---- FORM ----- */
+
+  .form__map-text {
+    margin-left: 12px;
+    margin-right: 10px;
   }
 }
 

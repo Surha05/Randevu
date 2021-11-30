@@ -1,10 +1,10 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?c1mgfy");
-  src: url("../fonts/icomoon.eot?c1mgfy#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?c1mgfy") format("truetype"),
-    url("../fonts/icomoon.woff?c1mgfy") format("woff"),
-    url("../fonts/icomoon.svg?c1mgfy#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?9y3kg2");
+  src: url("../fonts/icomoon.eot?9y3kg2#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?9y3kg2") format("truetype"),
+    url("../fonts/icomoon.woff?9y3kg2") format("woff"),
+    url("../fonts/icomoon.svg?9y3kg2#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,22 +28,31 @@
 
 .icon-check:before {
   content: "\e900";
+  color: #fff;
 }
 .icon-instagram:before {
   content: "\e901";
 }
-.icon-people:before {
+.icon-map:before {
   content: "\e902";
+  color: #592607;
 }
-.icon-search:before {
+.icon-people:before {
   content: "\e903";
 }
-.icon-shop:before {
+.icon-search:before {
   content: "\e904";
 }
-.icon-Telegram:before {
+.icon-shop:before {
   content: "\e905";
 }
-.icon-WhatsApp:before {
+.icon-Telegram:before {
   content: "\e906";
+}
+.icon-Union:before {
+  content: "\e907";
+  color: #592607;
+}
+.icon-WhatsApp:before {
+  content: "\e908";
 }
