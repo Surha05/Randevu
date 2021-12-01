@@ -18,7 +18,7 @@
   position: relative;
   width: 1300px;
   height: 710px;
-  background: rgb(188, 182, 173);
+  background: #e3e0da;
   z-index: 2;
 }
 
@@ -26,7 +26,7 @@
   position: absolute;
   width: 1300px;
   height: 740px;
-  background: rgb(188, 182, 173);
+  background: #e3e0da;
   z-index: 1;
   right: 0px;
   top: 230px;

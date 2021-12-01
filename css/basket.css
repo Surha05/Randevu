@@ -49,7 +49,7 @@
   border-radius: 5px;
   color: #fff;
   background: #fff;
-  border: 1px solid rgb(204, 200, 200);
+  border: 1px solid rgba(0, 0, 51, 30%);
 }
 
 .basket__check-box:checked + .icon-check {
@@ -123,9 +123,9 @@
 .basket__choice-quantity {
   display: flex;
   justify-content: space-around;
-  width: 80px;
-  height: 30px;
-  border: 1px solid rgb(204, 200, 200);
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 51, 30%);
   border-radius: 8px;
 }
 
@@ -133,7 +133,7 @@
 .basket__btn-plus {
   border: none;
   background: #fff;
-  font-size: 16px;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@
   text-align: center;
   width: 30px;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #474747;
 }
@@ -286,7 +286,7 @@
   transform: translate(-50%, -50%) scale(0);
   transition: 0.1s ease-in;
   transform: translate(-50%, -50%) scale(1);
-  border: 5px solid rgb(82, 34, 15);
+  border: 5px solid #592607;
 }
 
 .form-control__text {
@@ -315,11 +315,15 @@
 
 .form__map-text {
   font-size: 14px;
-  color: #592607;
+  color: #333333;
   margin-left: 18px;
   margin-right: 10px;
   border-bottom: 1px solid #592607;
   cursor: pointer;
+}
+
+.form__map-text:hover {
+  color: #592607;
 }
 
 .form__body-delivery {
@@ -449,13 +453,18 @@
 .basket__order-btn {
   width: 100%;
   height: 50px;
-  border: none;
+  border: 1px solid #c5c0b7;
   text-align: center;
-  background: #d7d2c9;
+  background: #fff;
   font-size: 18px;
   border-radius: 8px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.basket__order-btn:hover {
+  background: #d7d2c9;
+  border: none;
 }
 
 .basket__order-consent {
@@ -478,7 +487,7 @@
   }
 }
 
-@media (max-width: 1112px) {
+@media (max-width: 1024px) {
   /* ----- BASKET -----  */
   .basket-container {
     grid-template-columns: 1fr;
@@ -577,6 +586,22 @@
     justify-self: flex-end;
   }
 
+  .basket__choice-quantity {
+    width: 90px;
+  }
+
+  .basket__btn-minus,
+  .basket__btn-plus {
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .basket__quantity-value {
+    font-size: 16px;
+  }
+
   /* ----- END BASKET ----- */
 
   /* ----- FORM ----- */
@@ -605,7 +630,7 @@
   /* ---- END FORM ----  */
 }
 
-@media (max-width: 447px) {
+@media (max-width: 576px) {
   .basket__content-right {
     gap: 30px;
   }
@@ -629,6 +654,11 @@
 
   .basket__content-dish {
     font-size: 14px;
+  }
+
+  .basket__choice-quantity {
+    width: 80px;
+    height: 30px;
   }
 
   .basket__price {
@@ -664,18 +694,6 @@
   }
 
   .basket__price {
-    font-size: 14px;
-  }
-
-  .basket__btn-minus,
-  .basket__btn-plus {
-    border: none;
-    background: #fff;
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  .basket__quantity-value {
     font-size: 14px;
   }
 }
