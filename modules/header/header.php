@@ -1,5 +1,5 @@
 <header class="header">
-      <?php include '/modules/menu/menu.php'; ?>
+      <?php include 'modules/menu/menu.php'; ?>
       <div class="container flex__jc-c flex__ai-c">
         <div class="rectangle-top"></div>
         <h2 class="banner-h2">

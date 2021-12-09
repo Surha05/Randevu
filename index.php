@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <?php include_once '/modules/head/head.php'; ?>
+  <?php include_once 'modules/head/head.php'; ?>
   <body> 
-    <?php include '/modules/header/header.php'; ?>
+    <?php include 'modules/header/header.php'; ?>
     <section class="about">
       <div class="container flex__jc-sb">
         <div class="about__left-block">
