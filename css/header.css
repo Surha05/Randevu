@@ -55,6 +55,11 @@
 .menu__link:last-child {
   margin-right: 0px;
 }
+
+.menu__link:hover {
+  color: #592607;
+}
+
 /* -----  END MENU   ----- */
 
 /* ----- ICON ----- */
