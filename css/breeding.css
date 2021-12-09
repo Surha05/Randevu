@@ -207,13 +207,19 @@
   display: none;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1680px) {
   .card {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+  .card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 992px) {
   .options__item {
     display: none;
   }
@@ -224,10 +230,6 @@
     padding: 7px;
     border-radius: 10px;
     font-size: 14px;
-  }
-
-  .card {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .card__title {
@@ -283,7 +285,6 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
 @media (max-width: 576px) {
   .card__title {
     font-size: 14px;
