@@ -9,11 +9,7 @@
     <?php include 'modules/our-history/our-history.php'; ?>
     <?php include 'modules/banner/banner.php'; ?>
     <?php include 'modules/dishes-menu/dishes-menu.php'; ?>
-    <section class="banner">
-      <figure class="banner__box-img">
-        <img src="img/banner/Rectangle 40.png" alt="" class="banner__img" />
-      </figure>
-    </section>
+    <?php include 'modules/banner2/banner2.php'; ?>
     <section class="delight">
       <div class="delight__left-block">
         <figure class="delight__box-img">
