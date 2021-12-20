@@ -7,11 +7,7 @@
     <?php include 'modules/menu-cart/menu-cart.php'; ?>
     <?php include 'modules/working-hours/working-hours.php'; ?>
     <?php include 'modules/our-history/our-history.php'; ?>
-    <section class="banner">
-      <figure class="banner__box-img">
-        <img src="img/banner/Rectangle 36.png" alt="" class="banner__img" />
-      </figure>
-    </section>
+    <?php include 'modules/banner/banner.php'; ?>
     <section class="dishes-menu">
       <div class="dishes-menu__left-block">
         <h2 class="dishes-menu__title">МЕНЮ</h2>
