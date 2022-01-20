@@ -8,7 +8,7 @@
     </div>
     <div class="about__right-block">
       <figure class="about__img-box">
-        <img src="img/about/shef.png" alt="" class="about__img" />
+        <img src="img/about/shef.jpg" alt="" class="about__img" />
       </figure>
     </div>
   </div>
