@@ -14,5 +14,7 @@
     <?php include_once "modules/footer/footer.php"; ?>
     <!-- Подключаем тогл -->
     <script src="js/toggle.js"></script>
+    <!-- Подключаем библиотеку анимации AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
