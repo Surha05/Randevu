@@ -1,5 +1,5 @@
 <section class="dishes-menu">
-      <div class="dishes-menu__left-block">
+      <div class="dishes-menu__left-block" data-aos="fade-right">
         <h2 class="dishes-menu__title">МЕНЮ</h2>
         <p class="dishes-menu__icon">*</p>
         <p class="dishes-menu__text">
@@ -9,7 +9,7 @@
           любим готовить много разной еды для вас.
         </p>
       </div>
-      <div class="dishes-menu__right-block">
+      <div class="dishes-menu__right-block" data-aos="fade-left">
         <figure class="dishes-menu__box-img">
           <img
             src="img/dishes-menu/Rectangle 39.png"
