@@ -11,36 +11,35 @@
 }
 
 .working-hours__title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   color: #e3e0da;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .working-hours__img-box {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+.working-hours__img {
+  max-width: 80px;
 }
 
 .working-hours__line {
   width: 818px;
   background: #c4c4c4;
   height: 1px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .working-hours__text {
   font-family: "Kaushan Script", sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   color: #e3e0da;
 }
 
 @media (max-width: 1024px) {
   .working-hours__title {
     font-size: 36px;
-  }
-
-  .working-hours__img {
-    max-width: 116px;
   }
 
   .working-hours__line {
@@ -59,10 +58,6 @@
 
   .working-hours__title {
     font-size: 24px;
-  }
-
-  .working-hours__img {
-    max-width: 87px;
   }
 
   .working-hours__line {
@@ -86,7 +81,7 @@
   }
 
   .working-hours__img {
-    max-width: 65px;
+    max-width: 50px;
   }
 
   .working-hours__line {
