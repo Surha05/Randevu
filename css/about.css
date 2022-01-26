@@ -3,7 +3,6 @@
 }
 .about__left-block {
   padding-top: 30px;
-  padding-right: 35px;
   width: 50%;
 }
 
@@ -27,9 +26,10 @@
 
 .about__img-box {
   width: 100%;
+  /* max-width: 600px; */
   position: absolute;
-  bottom: 0;
-  right: 20px;
+  bottom: 20px;
+  left: 0;
   background: #fff;
 }
 
@@ -43,10 +43,6 @@
 @media (max-width: 1440px) {
   .about__text {
     line-height: 22px;
-  }
-
-  .about__img-box {
-    bottom: 0;
   }
 }
 
@@ -67,10 +63,17 @@
 @media (max-width: 576px) {
   .about__left-block {
     width: 100%;
-    padding-right: 0px;
   }
-
   .about__right-block {
-    display: none;
+    width: 100%;
+  }
+  .about__img-box {
+    position: static;
+  }
+  .about__img {
+    width: 100%;
+    display: block;
+    position: static;
+    margin-top: 20px;
   }
 }
