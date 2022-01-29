@@ -6,7 +6,7 @@
           <div class="menu-cart__wrapper-bottom"></div>
           <ul class="menu-cart__container">
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"

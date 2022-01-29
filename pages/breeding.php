@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name=”robots” content=”noindex, nofollow”/>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/icon.css" /> -->
     <title>Document</title>
   </head>
   <body>
-  <?php
-  include "static/menu.php"
-  ?>
+  <?php include "../modules/menu/menu.php";?>
     <section class="breeding">
       <div class="container">
         <h2 class="breeding__title">Пиццы</h2>
@@ -109,7 +107,7 @@
         <ul class="card">
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -127,7 +125,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -145,7 +143,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -163,7 +161,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -181,7 +179,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -199,7 +197,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -217,7 +215,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -235,7 +233,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -253,7 +251,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -271,7 +269,7 @@
             </li>
             <li class="card__item">
               <a href="" class="card__link">
-                  <figure class="card__box-img"><img src="img/card/Фото.png" alt="" class="card__img"></figure>
+                  <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
                 <h3 class="card__title">Пицца "Рандеву"</h3>
                 <p class="card__desc">говядина копч., курица копч., шампиньоны, сыр, соус 500г</p>
@@ -290,9 +288,7 @@
         </ul>
       </div>
     </section>
-    <?php
-  include "static/footer.php"
-  ?>
+    <?php include "../modules/footer/footer.php";?>
     <script src="js/toggle.js"></script>
   </body>
 </html>

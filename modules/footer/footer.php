@@ -4,7 +4,7 @@
       <ul class="footer__menu">
         <li class="footer__menu-item footer__logo">
           <a href="#" class="footer__logo-link">
-            <h1 class="footer__logo-title">Randevu</h1>
+            <p class="footer__logo-title">Randevu</p>
             <p class="footer__logo-text">семейное кафе</p>
           </a>
         </li>
@@ -34,6 +34,7 @@
         </div>
     </div>
   </div>
+  
   <div class="footer__wrapper-bottom">
     <div class="footer__bottom-block">
       <div class="footer__bottom-left">

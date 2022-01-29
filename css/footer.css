@@ -10,9 +10,9 @@
 
 .footer__top-block {
   max-width: 1680px;
-  height: 90px;
-  margin: 0 auto;
-  padding: 0 30px 0px 30px;
+  /* height: 90px; */
+  /* margin: 0 auto; */
+  padding: 0 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -21,15 +21,16 @@
 /* ----- LOGO ----- */
 
 .footer__logo-title {
+  margin-bottom: 5px;
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
   font-family: "Kaushan Script", sans-serif;
   color: #592607;
 }
 
 .footer__logo-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   color: #131212;
   position: relative;
   top: -12px;
@@ -44,7 +45,7 @@
   grid-auto-flow: column;
   justify-self: start;
   align-items: center;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .footer__menu-item {
@@ -68,7 +69,7 @@
   display: grid;
   grid-auto-flow: column;
   justify-self: end;
-  height: 100px;
+  /* height: 100px; */
   align-items: center;
 }
 
@@ -212,11 +213,11 @@
 
 @media (max-width: 1336px) {
   .footer__logo-title {
-    font-size: 36px;
+    font-size: 24px;
   }
 
   .footer__logo-text {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .footer__menu-link {
@@ -236,11 +237,11 @@
 
 @media (max-width: 768px) {
   .footer__logo-title {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .footer__logo-text {
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .footer__bottom-block {
