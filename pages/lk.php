@@ -13,7 +13,44 @@
 <div class="lk container">
     <h1 class="h1 mb24">Личный кабинет</h1>
     <div class="orders">
-        <div class="h2">Заказы</div>
+        <h2 class="h2">Заказы</h2>
+        <section class="orders__section">
+            <div class="orders__block">
+                <div class="orders__list head">
+                    <div class="orders__date">Дата</div>
+                    <div class="orders__number">Заказ</div>
+                    <div class="orders__amount">Сумма</div>
+                </div>
+
+                <div class="orders__list head">
+                    <div class="orders__date">19.11.2021</div>
+                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__amount">8 465 ₽</div>
+                </div>
+                <div class="orders__list head">
+                    <div class="orders__date">24.07.2021</div>
+                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__amount">8 465 ₽</div>
+                </div>
+                <div class="orders__list head">
+                    <div class="orders__date">24.07.2021</div>
+                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__amount">8 465 ₽</div>
+                </div>
+                <div class="orders__list head">
+                    <div class="orders__date">24.07.2021</div>
+                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__amount">8 465 ₽</div>
+                </div>
+            </div>
+            <div class="orders__nav">
+                <ul class="orders__ul">
+                    <li class="orders__li orders__li_active">Заказы</li>
+                    <li class="orders__li">Настройки</li>
+                    <li class="orders__li">Выход</li>
+                </ul>
+            </div>
+        </section>
     </div>
 </div>
 <?php include "../modules/footer/footer.php";?>
