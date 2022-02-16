@@ -27,14 +27,12 @@
 }
 .orders__date, .orders__number {
     flex-basis: 250px;
-    /* flex-grow: 1; */
 }
 .orders__number a {
     text-decoration: underline;
     color: #592607;
 }
 .orders__amount {
-    /* width: 100%; */
     flex-grow: 1;
     text-align: right;
 }
@@ -121,5 +119,91 @@
     .orders__list,
     .orders__li {
         font-size: 12px;
+    }
+}
+
+/* settings */
+
+.orders__text {
+    font-size: 16px;
+}
+.orders__text_head {
+    font-size: 16px;
+    color: #999;
+}
+.orders__setting-block {
+    border: 1px solid #C5C0B7;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.orders__setting-block:last-of-type {
+    margin-bottom: 0;
+}
+.orders__row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.orders__row:last-of-type {
+    margin-bottom: 0;
+}
+.orders__col-50 {
+    flex-basis: 50%;
+}
+.orders-btn {
+    width: 200px;
+    height: 40px;
+    background: #d7d2c9;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.orders-btn:hover {
+    background: #bcb6ad;
+    cursor: pointer;
+}
+.orders__icon {
+    height: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    .orders__text {
+        font-size: 14px;
+    }
+    .orders__text_head {
+        font-size: 14px;
+    }
+    .orders__setting-block {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .orders-btn {
+        font-size: 14px;
+    }
+    .orders__icon {
+        top: 3px;
+    }
+}
+@media (max-width: 576px) {
+    .orders__text {
+        font-size: 13px;
+    }
+    .orders__text_head {
+        font-size: 13px;
+    }
+    .orders__setting-block {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .orders__row {
+        margin-bottom: 15px;
+    }
+    .orders-btn {
+        width: 100%;
+        font-size: 13px;
     }
 }

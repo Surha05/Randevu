@@ -16,18 +16,31 @@ a {
 li {
   list-style: none;
 }
+button {
+  border: 0;
+}
 
 .h1, .h2, .h3, .h4 {
   font-weight: bold;
+  position: relative;
 }
 .h1 {
   font-size: 32px;
+  margin-bottom: 32px;
 }
 .h2 {
-  font-size: 24px;
-  margin-bottom: 24px;
+  font-size: 26px;
+  margin-bottom: 26px;
+}
+.h3 {
+  font-size: 22px;
+  margin-bottom: 22px;
 }
 
+
+.mb30 {
+  margin-bottom: 30px;
+}
 .mb24 {
   margin-bottom: 24px;
 }
@@ -63,9 +76,55 @@ li {
 }
 /* -----  END FLEX   ----- */
 
-
+@media (max-width:1024px) {
+  .container {
+    padding: 0 20px;
+  }
+  .mb30 {
+    margin-bottom: 20px;
+  }
+  .mb24 {
+    margin-bottom: 16px;
+  }
+  .mb20 {
+    margin-bottom: 12px;
+  }
+  .h1 {
+    font-size: 26px;
+    margin-bottom: 26px;
+  }
+  .h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+}
 @media (max-width:576px) {
   .container {
     padding: 0 15px;
+  }
+  .mb30 {
+    margin-bottom: 15px;
+  }
+  .mb24 {
+    margin-bottom: 12px;
+  }
+  .mb20 {
+    margin-bottom: 10px;
+  }
+  .h1 {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+  .h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
   }
 }
