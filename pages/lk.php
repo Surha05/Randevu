@@ -15,7 +15,7 @@
     <div class="orders">
         <h2 class="h2">Настройки</h2>
         <section class="orders__section">
-            <div class="orders__block" id="orders-list" style="display: none;">
+            <div class="orders__block" id="orders-list">
                 <div class="orders__list head">
                     <div class="orders__date">Дата</div>
                     <div class="orders__number">Заказ</div>
@@ -43,7 +43,7 @@
                     <div class="orders__amount">8 465 ₽</div>
                 </div>
             </div>
-            <div class="orders__block" id="orders-settings">
+            <div class="orders__block" id="orders-settings" style="display: none;">
                 <!-- <p class="orders__text mb30">Вы в любой момент можете обновить ваши данные</p> -->
                 <div class="orders__setting-block">
                     <h3 class="h3">Личная информация
@@ -80,8 +80,8 @@
             </div>
             <div class="orders__nav">
                 <ul class="orders__ul">
-                    <li class="orders__li active">Заказы</li>
-                    <li class="orders__li">Настройки</li>
+                    <li class="orders__li active" id="btn-list">Заказы</li>
+                    <li class="orders__li" id="btn-settings">Настройки</li>
                     <li class="orders__li">Выход</li>
                 </ul>
             </div>

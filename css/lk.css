@@ -51,6 +51,7 @@
 }
 .orders__li:hover {
     background: #eee;
+    cursor: pointer;
 }
 .orders__li.active:hover {
     background: #D7D2C9;
