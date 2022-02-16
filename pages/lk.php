@@ -22,30 +22,30 @@
                     <div class="orders__amount">Сумма</div>
                 </div>
 
-                <div class="orders__list head">
+                <div class="orders__list">
                     <div class="orders__date">19.11.2021</div>
-                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__number"><a href="#">Заказ №48924</a></div>
                     <div class="orders__amount">8 465 ₽</div>
                 </div>
-                <div class="orders__list head">
+                <div class="orders__list">
                     <div class="orders__date">24.07.2021</div>
-                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__number"><a href="#">Заказ №40824</a></div>
                     <div class="orders__amount">8 465 ₽</div>
                 </div>
-                <div class="orders__list head">
+                <div class="orders__list">
                     <div class="orders__date">24.07.2021</div>
-                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__number"><a href="#">Заказ №40924</a></div>
                     <div class="orders__amount">8 465 ₽</div>
                 </div>
-                <div class="orders__list head">
+                <div class="orders__list">
                     <div class="orders__date">24.07.2021</div>
-                    <div class="orders__number">Заказ №408924</div>
+                    <div class="orders__number"><a href="#">Заказ №40892</a></div>
                     <div class="orders__amount">8 465 ₽</div>
                 </div>
             </div>
             <div class="orders__nav">
                 <ul class="orders__ul">
-                    <li class="orders__li orders__li_active">Заказы</li>
+                    <li class="orders__li active">Заказы</li>
                     <li class="orders__li">Настройки</li>
                     <li class="orders__li">Выход</li>
                 </ul>

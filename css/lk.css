@@ -2,3 +2,124 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.orders__section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.orders__block {
+    flex-basis: 100%;
+    margin-right: 20px;
+}
+.orders__list {
+    padding: 10px;
+    border-bottom: 1px solid #C5C0B7;
+    display: flex;
+    /* justify-content: start; */
+
+    font-size: 16px;
+    line-height: 24px;
+}
+.orders__list.head .orders__date,
+.orders__list.head .orders__number,
+.orders__list.head .orders__amount {
+    color: #999999;
+}
+.orders__date, .orders__number {
+    flex-basis: 250px;
+    /* flex-grow: 1; */
+}
+.orders__number a {
+    text-decoration: underline;
+    color: #592607;
+}
+.orders__amount {
+    /* width: 100%; */
+    flex-grow: 1;
+    text-align: right;
+}
+.orders__nav {
+    flex-basis: 250px;
+}
+.orders__li {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+.orders__li.active {
+    background: #D7D2C9;
+}
+.orders__li:hover {
+    background: #eee;
+}
+.orders__li.active:hover {
+    background: #D7D2C9;
+}
+@media (max-width: 1024px) {
+    .lk {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .orders__section {
+        flex-wrap: wrap;
+    }
+    .orders__block {
+        flex-basis: 100%;
+        margin-right: 0;
+        order: 1;
+    }
+    .orders__list {
+        font-size: 14px;
+    }
+    .orders__date, .orders__number {
+        flex-basis: 200px;
+    }
+    .orders__nav {
+        flex-basis: 100%;
+        order: 0;
+        margin-bottom: 10px;
+    }
+    .orders__ul {
+        width: 100%;
+        display: flex;
+    }
+    .orders__li {
+        flex-basis: 200px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px) {
+    .orders__date, 
+    .orders__number, 
+    .orders__amount {
+        flex-basis: 33.33%;
+        padding-left: 10px;
+    }
+    .orders__li {
+        flex-basis: 33.33%;
+    }
+    .orders__amount {
+        text-align: left;
+        /* flex-grow: 0; */
+    }
+    .orders__list,
+    .orders__li {
+        font-size: 13px;
+    }
+    .orders__list {
+        padding: 10px 0;
+    }
+}
+@media (max-width: 400px) {
+    .orders__date, 
+    .orders__number, 
+    .orders__amount {
+        padding-left: 10px;
+    }
+    .orders__list,
+    .orders__li {
+        font-size: 12px;
+    }
+}
