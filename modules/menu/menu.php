@@ -2,13 +2,12 @@
         <div class="container flex__jc-sb flex__ai-c">
           <ul class="menu__left-block">
             <li class="menu__item logo">
-              <a href="../index.php" class="menu__link">
+              <a href="/index.php" class="menu__link">
                 <h1 class="logo__title">Randevu</h1>
                 <p class="logo__text">семейное кафе</p>
               </a>
             </li>
             <li class="menu__item"><a href="#" class="menu__link">о нас</a></li>
-            <li class="menu__item"><a href="../breeding.php" class="menu__link">меню</a></li>
             <li class="menu__item">
               <a href="#" class="menu__link">оплата</a>
             </li>
@@ -22,7 +21,7 @@
           <div class="menu__right-block">
             <a href="#" class="menu__link"><span class="icon-search"></span></a>
             <a href="/pages/lk.php" class="menu__link" target="_blank"><span class="icon-people"></span></a>
-            <a href="basket.php" class="menu__link"><span class="icon-shop"></span></a>
+            <a href="/pages/basket.php" class="menu__link"><span class="icon-shop"></span></a>
           </div>
           <div class="toggle-box">
             <div class="toggle" onclick="toggle()"></div>
@@ -41,7 +40,7 @@
                 </li>
                 <li class="mob-menu__item">
                   <a
-                    href="../breeding.php"
+                    href="/breeding.php"
                     class="mob-menu__link"
                     onclick="toggle()"
                     >меню</a

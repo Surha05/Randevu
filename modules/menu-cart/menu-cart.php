@@ -19,7 +19,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -32,7 +32,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -45,7 +45,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -58,7 +58,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -71,7 +71,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -84,7 +84,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -97,7 +97,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -110,7 +110,7 @@
               <p class="menu-card__line"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -123,7 +123,7 @@
               <p class="menu-card__line menu-card__line-chudu"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -136,7 +136,7 @@
               <p class="menu-card__line menu-card__line-desert"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"
@@ -149,7 +149,7 @@
               <p class="menu-card__line menu-card__line-drink"></p>
             </li>
             <li class="menu-cart__item">
-              <a href="#" class="menu-cart__link">
+              <a href="/pages/breeding.php" class="menu-cart__link">
                 <figure class="menu-cart__img-box">
                   <img
                     src="img/меню/menu-img.png"

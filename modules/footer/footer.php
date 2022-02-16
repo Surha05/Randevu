@@ -40,20 +40,20 @@
       <div class="footer__bottom-left">
         <h4 class="footer__subtitle">Меню</h4>
         <ul class="footer__sub-menu">
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">пицца</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">шашлыки</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">супы</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">завтраки</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">гарниры</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">мясные</a></li> 
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">пицца</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">шашлыки</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">супы</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">завтраки</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">гарниры</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">мясные</a></li> 
         </ul>
         <ul class="footer__sub-menu">
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">роллы</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">салаты</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">чуду и мучное</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">десерты</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">чаи</a></li>
-          <li class="footer__sub-item"><a href="#" class="footer__sub__link">напитки</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">роллы</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">салаты</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">чуду и мучное</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">десерты</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">чаи</a></li>
+          <li class="footer__sub-item"><a href="/pages/breeding.php" class="footer__sub__link">напитки</a></li>
         </ul>
       </div>
       <div class="footer__bottom-right">
