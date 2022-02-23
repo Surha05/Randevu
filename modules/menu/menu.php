@@ -19,9 +19,10 @@
             </li>
           </ul>
           <div class="menu__right-block">
-            <a href="#" class="menu__link"><span class="icon-search"></span></a>
-            <a href="/pages/lk.php" class="menu__link" target="_blank"><span class="icon-people"></span></a>
-            <a href="/pages/basket.php" class="menu__link"><span class="icon-shop"></span></a>
+            <a href="#" class="menu__link"><i class="fa-regular fa-magnifying-glass"></i></a>
+            <a href="/pages/lk.php" class="menu__link" target="_blank"><i class="fa-regular fa-circle-user"></i></a>
+            <a href="/pages/basket.php" class="menu__link"><i class="fa-regular fa-cart-shopping"></i></a>
+            <a href="/pages/basket.php" class="menu__link">f07a</a>
           </div>
           <div class="toggle-box">
             <div class="toggle" onclick="toggle()"></div>

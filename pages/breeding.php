@@ -119,7 +119,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -137,7 +137,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -155,7 +155,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -173,7 +173,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -191,7 +191,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -209,7 +209,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -227,7 +227,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -245,7 +245,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -263,7 +263,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>
@@ -281,7 +281,7 @@
                 <input value="1" class="card__quantity-value">
                 <button class="card__btn-plus">+</button>
                </div>
-               <a href="#" class="card__basket"><span class="icon-shop"></span></a>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
             </li>

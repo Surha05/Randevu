@@ -23,13 +23,13 @@
       </ul>
       <ul class="footer__icon">
           <li class="footer__menu-icon">
-            <a href="#" class="footer__icon-link"><span class="icon-instagram"></span></a>
+            <a href="#" class="footer__icon-link"><i class="fa-brands fa-instagram"></i></a>
           </li>
           <li class="footer__menu-icon">
-            <a href="#" class="footer__icon-link"><span class="icon-WhatsApp"></span></a>
+            <a href="#" class="footer__icon-link"><i class="fa-brands fa-whatsapp"></i></a>
           </li>
           <li class="footer__menu-icon"></li>
-            <a href="#" class="footer__icon-link"><span class="icon-Telegram"></span></a>
+            <a href="#" class="footer__icon-link"><i class="fa-brands fa-telegram"></i></a>
         </ul>
         </div>
     </div>

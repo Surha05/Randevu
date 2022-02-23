@@ -1,6 +1,82 @@
 <section class="menu-cart">
   <h2 class="menu-cart__title">МЕНЮ</h2>
-  <div class="">
+  <div class="menu-cart-wrapper container">
+    <div class="menu-cart__container">
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Пицца</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Шашлыки</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Супы</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Завтраки</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Гарниры</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Роллы</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Салаты</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Чуду</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Мучное</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Десерты</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Напитки</h4>
+        </div>
+      </a>
+      <a href="/pages/breeding.php" class="menu-cart__link">
+        <div class="menu-cart__li">
+          <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
+          <h4 class="menu-cart__h4">Мясные</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- <div class="">
     <div class="menu-cart__wrapper container">
       <div class="menu-cart__wrapper-top"></div>
       <div class="menu-cart__wrapper-bottom"></div>
@@ -115,5 +191,5 @@
         </li>
       </ul>
     </div>
-  </div>
+  </div> -->
 </section>
