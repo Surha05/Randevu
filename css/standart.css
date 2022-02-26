@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"); */
 
 * {
   padding: 0;
@@ -37,7 +37,9 @@ button {
   margin-bottom: 22px;
 }
 
-
+.m0 {
+  margin: 0;
+}
 .mb30 {
   margin-bottom: 30px;
 }

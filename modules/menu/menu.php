@@ -20,9 +20,9 @@
           </ul>
           <div class="menu__right-block">
             <a href="#" class="menu__link"><i class="fa-regular fa-magnifying-glass"></i></a>
-            <a href="/pages/lk.php" class="menu__link" target="_blank"><i class="fa-regular fa-circle-user"></i></a>
-            <a href="/pages/basket.php" class="menu__link"><i class="fa-regular fa-cart-shopping"></i></a>
-            <a href="/pages/basket.php" class="menu__link">f07a</a>
+            <a href="/pages/basket.php" class="menu__link"><i style="font-size: 20px;" class="fa-regular fa-cart-shopping"></i></i></a>
+            <a href="/pages/lk.php" class="menu__link" target="_blank"><i style="font-size: 20px;" class="fa-regular fa-circle-user"></i></a>
+            
           </div>
           <div class="toggle-box">
             <div class="toggle" onclick="toggle()"></div>
