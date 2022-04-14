@@ -73,6 +73,9 @@
 .menu__link:hover {
   color: #592607;
 }
+.menu__link span:hover {
+  color: #592607;
+}
 
 @media (max-width: 1024px) {
   .menu__item {

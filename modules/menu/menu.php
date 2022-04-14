@@ -19,9 +19,15 @@
             </li>
           </ul>
           <div class="menu__right-block">
-            <a href="#" class="menu__link"><i class="fa-regular fa-magnifying-glass"></i></a>
-            <a href="/pages/basket.php" class="menu__link"><i style="font-size: 20px;" class="fa-regular fa-cart-shopping"></i></i></a>
-            <a href="/pages/lk.php" class="menu__link" target="_blank"><i style="font-size: 20px;" class="fa-regular fa-circle-user"></i></a>
+            <a href="#" class="menu__link">
+              <span class="material-icons-outlined search">search</span>
+            </a>
+            <a href="/pages/basket.php" class="menu__link">
+              <span class="material-icons-outlined">shopping_cart</span>
+            </a>
+            <a href="/pages/lk.php" class="menu__link" target="_blank">
+            <span class="material-icons-outlined">account_circle</span>
+            </a>
             
           </div>
           <div class="toggle-box">

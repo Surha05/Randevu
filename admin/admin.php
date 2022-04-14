@@ -23,7 +23,27 @@ include "connect.php";
           exit();
         } ?>
     </h1>
-    <div class="admin-page" id="add-stuff">
+
+    <div class="admin-page" id="stuff-list">
+      <h2 class="h2">Категории</h2>
+      <form method="POST" action="category_add.php" class="admin-form" enctype="multipart/form-data">
+
+        <label class="admin-label">
+          <p class="admin-label__text">Имя категории<sup>*</sup></p>
+          <input type="text" required name="category_name" class="admin-input">
+        </label>
+
+        <label class="admin-label">
+          <p class="admin-label__text">Фото категории</p>
+          <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
+          <input type="file" name="category_photo" class="admin-input-photo">
+        </label>
+
+        <input type="submit" value="Добавить категорию" class="admin-submit mt20">
+      </form>
+    </div>
+
+    <!-- <div class="admin-page" id="add-stuff">
       <h2 class="h2">Продукты</h2>
       <form method="POST" action="set_stuff.php" class="admin-form" enctype="multipart/form-data">
 
@@ -60,11 +80,9 @@ include "connect.php";
 
         <input type="submit" value="Добавить" class="admin-submit mt20">
       </form>
-    </div>
+    </div> -->
 
-    <div class="admin-page" id="stuff-list">
-      <h2 class="h2">Категории</h2>
-    </div>
+   
   </section>
 </main>
 

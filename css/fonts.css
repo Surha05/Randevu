@@ -42,3 +42,15 @@
     src: url("../fonts/kaushan/kaushan.ttf");
     font-display: fallback;
 }
+
+/* ////    GOOGLE-ICON    //// */
+@font-face {
+    font-family: "g-icon";
+    src: url("../fonts/google-icon.otf");
+    font-display: fallback;
+}
+.material-icons-outlined {
+    font-family: "g-icon" !important;
+    line-height: 1;
+    font-size: 28px;
+}
