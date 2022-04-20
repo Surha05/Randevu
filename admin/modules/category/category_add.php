@@ -1,8 +1,9 @@
 <?php
 
-include "connect.php";
+include '../../connect.php';
 
 $category_name = $_POST['category_name'];
+$category_parent = $_POST['category_parent'];
 $category_photo;
 
 // если была произведена отправка формы
@@ -20,7 +21,7 @@ if(isset($_FILES['category_photo'])) {
 }
 
 if($connection) {
-    mysqli_query($connection, "INSERT INTO `categories` (`id`, `category_name`, `category_photo`) VALUES (NULL, '$category_name', '$category_photo');"); 
+    mysqli_query($connection, "INSERT INTO `categories` (`id`, `category_name`, `parent`, `category_photo`) VALUES (NULL, '$category_name', '$category_parent', '$category_photo');"); 
 }
 
 function can_upload($file){
@@ -45,7 +46,7 @@ function can_upload($file){
   
 function make_upload($file){
 	// формируем уникальное имя картинки: name и случайное число
-	$name = $file['name'] ."-". mt_rand(0, 10000);
+	$name = $file['name'];
 	// формируем путь к папке загрузки
 	$uploaddir = '../img/categories/';
     $uploadfile = $uploaddir . basename($name);

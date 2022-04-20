@@ -1,14 +1,29 @@
+
+
 <section class="menu-cart">
   <h2 class="menu-cart__title">МЕНЮ</h2>
   <div class="menu-cart-wrapper container">
     <div class="menu-cart__container">
-      <a href="/pages/breeding.php" class="menu-cart__link">
+      <?php
+      $category_list = mysqli_query($connection, 'SELECT * FROM `categories` ORDER BY `id`');
+      while ( $category_item = mysqli_fetch_assoc($category_list) ) {
+        echo '
+        <a href="/pages/breeding.php?'.$category_item['category_name'].'" class="menu-cart__link">
+          <div class="menu-cart__li">
+            <figure class="menu-cart__figure"><img src="img/categories/'.$category_item['category_photo'].'" class="menu-cart__img"></figure>
+            <h4 class="menu-cart__h4">'.$category_item['category_name'].'</h4>
+          </div>
+        </a>
+        ';  
+      }
+      ?>
+      <!-- <a href="/pages/breeding.php" class="menu-cart__link">
         <div class="menu-cart__li">
           <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
           <h4 class="menu-cart__h4">Пицца</h4>
         </div>
-      </a>
-      <a href="/pages/breeding.php" class="menu-cart__link">
+      </a> -->
+      <!-- <a href="/pages/breeding.php" class="menu-cart__link">
         <div class="menu-cart__li">
           <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
           <h4 class="menu-cart__h4">Шашлыки</h4>
@@ -73,7 +88,7 @@
           <figure class="menu-cart__figure"><img src="img/menu/menu-img.png" alt="" class="menu-cart__img"></figure>
           <h4 class="menu-cart__h4">Мясные</h4>
         </div>
-      </a>
+      </a> -->
     </div>
   </div>
   <!-- <div class="">

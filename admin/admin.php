@@ -8,9 +8,9 @@ include "connect.php";
 <main class="admin-main">
   <nav class="menu-admin">
     <div class="sticky">
-      <p class="menu-admin__item menu-admin__item_active"><a href="#add-stuff">Продукты</a></p>
-      <p class="menu-admin__item"><a href="#additional-pages">Страницы</a></p>
-      <p class="menu-admin__item"><a href="#settings">Общие настройки</a></p>
+      <p class="menu-admin__item menu-admin__item_active"><a href="#category">Категории</a></p>
+      <p class="menu-admin__item"><a href="#product">Товары</a></p>
+      <!-- <p class="menu-admin__item"><a href="#settings">Общие настройки</a></p> -->
     </div>
   </nav>
   <section class="admin-content">
@@ -24,24 +24,9 @@ include "connect.php";
         } ?>
     </h1>
 
-    <div class="admin-page" id="stuff-list">
-      <h2 class="h2">Категории</h2>
-      <form method="POST" action="category_add.php" class="admin-form" enctype="multipart/form-data">
-
-        <label class="admin-label">
-          <p class="admin-label__text">Имя категории<sup>*</sup></p>
-          <input type="text" required name="category_name" class="admin-input">
-        </label>
-
-        <label class="admin-label">
-          <p class="admin-label__text">Фото категории</p>
-          <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
-          <input type="file" name="category_photo" class="admin-input-photo">
-        </label>
-
-        <input type="submit" value="Добавить категорию" class="admin-submit mt20">
-      </form>
-    </div>
+    <?php
+    include 'modules/category/admin_section.php';
+    ?>
 
     <!-- <div class="admin-page" id="add-stuff">
       <h2 class="h2">Продукты</h2>
@@ -85,6 +70,7 @@ include "connect.php";
    
   </section>
 </main>
+
 
 
 

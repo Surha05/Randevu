@@ -35,6 +35,8 @@ if(isset($data['do_login'])) {
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/style.css">
   <title>Административная панель</title>
+
+  <script src="/js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
