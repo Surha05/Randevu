@@ -15,11 +15,11 @@
   include "../admin/connect.php";
   include "../modules/menu/menu.php";
 
-  $category = $_GET['category']
+  $category = $_GET['category'];
   ?>
     <section class="breeding">
       <div class="container">
-        <h2 class="breeding__title">Пиццы</h2>
+        <h2 class="breeding__title"><?php echo $category; ?></h2>
         <div class="option">
           <ul class="options__left">
             <li class="options__item options__subtitle">Фильтр:</li>
@@ -110,7 +110,34 @@
           </ul>
         </div>
         <ul class="card">
+        <?php
+        $product_list = mysqli_query($connection, 'SELECT * FROM `product` ORDER BY `id`');
+        while ( $product_item = mysqli_fetch_assoc($product_list) ) {
+          if($product_item['category'] == $category) {
+            echo '
             <li class="card__item">
+              <a href="" class="card__link">
+                  <figure class="card__box-img"><img src="/img/product/'.$product_item['photo'].'" alt="'.$product_item['name'].' Рандеву" class="card__img"></figure>
+                <p class="card__subtitle">'.$product_item['category'].'</p>
+                <h3 class="card__title">'.$product_item['name'].'</h3>
+                <p class="card__desc">'.$product_item['description'].'</p>
+              </a>
+              <div class="card__conrol">
+               <p class="card__price">'.$product_item['price'].' р.</p>
+               <div class="card__choice-quantity">
+                <button class="card__btn-minus">-</button>
+                <input value="1" class="card__quantity-value">
+                <button class="card__btn-plus">+</button>
+               </div>
+               <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
+              </div>
+              <button class="card__mob-basket">В корзину</button>
+            </li>
+            ';
+          }
+        }
+        ?>
+            <!-- <li class="card__item">
               <a href="" class="card__link">
                   <figure class="card__box-img"><img src="/img/card/Фото.png" alt="" class="card__img"></figure>
                 <p class="card__subtitle">Пиццы</p>
@@ -289,7 +316,7 @@
                <a href="#" class="card__basket"><i class="fa-regular fa-cart-plus"></i></a>
               </div>
               <button class="card__mob-basket">В корзину</button>
-            </li>
+            </li> -->
         </ul>
       </div>
     </section>

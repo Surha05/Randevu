@@ -4,6 +4,8 @@ include '../../connect.php';
 
 $name = $_POST['name'];
 $category = $_POST['category'];
+$description = $_POST['description'];
+$price = $_POST['price'];
 $photo;
 
 // если была произведена отправка формы
@@ -21,7 +23,7 @@ if(isset($_FILES['photo'])) {
 }
 
 if($connection) {
-    mysqli_query($connection, "INSERT INTO `product` (`id`, `name`, `category`, `photo`) VALUES (NULL, '$name', '$category', '$photo');"); 
+    mysqli_query($connection, "INSERT INTO `product` (`id`, `name`, `category`, `photo`, `description`, `price`) VALUES (NULL, '$name', '$category', '$photo', '$description', '$price');"); 
 }
 
 function can_upload($file){

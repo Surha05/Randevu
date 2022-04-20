@@ -28,6 +28,16 @@
             </select>
         </label>
 
+        <label class="admin-label">
+            <p class="admin-label__text">Описание<sup>*</sup></p>
+            <textarea class="admin-textarea" name="description"></textarea>
+        </label>
+
+        <label class="admin-label">
+            <p class="admin-label__text">Цена<sup>*</sup></p>
+            <input type="number" required name="price" class="admin-input">
+        </label>
+
         <input type="submit" value="Добавить продукт" class="admin-submit mt20">
     </form>
     

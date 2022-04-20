@@ -8,7 +8,7 @@
       $category_list = mysqli_query($connection, 'SELECT * FROM `categories` ORDER BY `id`');
       while ( $category_item = mysqli_fetch_assoc($category_list) ) {
         echo '
-        <a href="/pages/breeding.php?'.$category_item['category_name'].'" class="menu-cart__link">
+        <a href="/pages/breeding.php?category='.$category_item['category_name'].'" class="menu-cart__link">
           <div class="menu-cart__li">
             <figure class="menu-cart__figure"><img src="img/categories/'.$category_item['category_photo'].'" class="menu-cart__img"></figure>
             <h4 class="menu-cart__h4">'.$category_item['category_name'].'</h4>

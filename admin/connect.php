@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root"; // root
-$password = "root"; // root
-$bdname = "randevu";   // bd
+$username = "n98948jc_randevu"; // root
+$password = "Dagestan05"; // root
+$bdname = "n98948jc_randevu";   // randevu
 $connection = mysqli_connect($servername, $username, $password, $bdname);
 ?>
