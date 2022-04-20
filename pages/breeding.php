@@ -11,7 +11,12 @@
     <title>Document</title>
   </head>
   <body>
-  <?php include "../modules/menu/menu.php";?>
+  <?php 
+  include "../admin/connect.php";
+  include "../modules/menu/menu.php";
+
+  $category = $_GET['category']
+  ?>
     <section class="breeding">
       <div class="container">
         <h2 class="breeding__title">Пиццы</h2>

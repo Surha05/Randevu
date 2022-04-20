@@ -7,7 +7,7 @@ $category_parent = $_POST['category_parent'];
 $category_photo;
 
 // если была произведена отправка формы
-if(isset($_FILES['category_photo'])) {
+if(isset($_FILES['category_photo'])) { 
     // проверяем, можно ли загружать изображение
 	$check = can_upload($_FILES['category_photo']);
     if($check === true){
@@ -48,7 +48,7 @@ function make_upload($file){
 	// формируем уникальное имя картинки: name и случайное число
 	$name = $file['name'];
 	// формируем путь к папке загрузки
-	$uploaddir = '../img/categories/';
+	$uploaddir = '../../../img/categories/';
     $uploadfile = $uploaddir . basename($name);
 	// переносим файл в папку
 	move_uploaded_file($file['tmp_name'], $uploadfile);

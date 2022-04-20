@@ -26,50 +26,14 @@ include "connect.php";
 
     <?php
     include 'modules/category/admin_section.php';
+    include 'modules/product/admin_section.php';
     ?>
-
-    <!-- <div class="admin-page" id="add-stuff">
-      <h2 class="h2">Продукты</h2>
-      <form method="POST" action="set_stuff.php" class="admin-form" enctype="multipart/form-data">
-
-        <label class="admin-label">
-          <p class="admin-label__text">Заголовок материала<sup>*</sup></p>
-          <input type="text" required name="title_stuff" class="admin-input">
-        </label>
-
-        <label class="admin-label">
-          <p class="admin-label__text">Категория материала</p>
-          <select name="category_stuff" class="admin-select">
-            <option>Без категории</option>
-            <option>События</option>
-            <option>Документы</option>
-            <option>Статистика</option>
-          </select>
-        </label>
-
-        <label class="admin-label">
-          <p class="admin-label__text">Содержимое материала</p>
-          <textarea id="mytextarea" name="desc_stuff"></textarea>
-        </label>
-
-        <label class="admin-label">
-          <p class="admin-label__text">Добавить фото</p>
-          <input type="hidden" name="MAX_FILE_SIZE" value="3000000" />
-          <input type="file" name="photo_stuff[]" class="admin-input-photo" multiple>
-        </label>
-
-        <label class="admin-label">
-          <p class="admin-label__text">Дата материала</p>
-          <input type="date" name="date_stuff" class="admin-input" autocomplete>
-        </label>
-
-        <input type="submit" value="Добавить" class="admin-submit mt20">
-      </form>
-    </div> -->
 
    
   </section>
 </main>
+
+<script src="/js/close_popup.js"></script>
 
 
 

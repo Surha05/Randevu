@@ -2,17 +2,17 @@
 
 include '../../connect.php';
 
-$category_name = $_POST['category_name'];
-$category_parent = $_POST['category_parent'];
-$category_photo;
+$name = $_POST['name'];
+$category = $_POST['category'];
+$photo;
 
 // если была произведена отправка формы
-if(isset($_FILES['category_photo'])) {
+if(isset($_FILES['photo'])) {
     // проверяем, можно ли загружать изображение
-	$check = can_upload($_FILES['category_photo']);
+	$check = can_upload($_FILES['photo']);
     if($check === true){
         // загружаем изображение на сервер
-        make_upload($_FILES['category_photo']);
+        make_upload($_FILES['photo']);
         echo "<strong>Файл успешно загружен!</strong><br>";
     } else {
         // выводим сообщение об ошибке
@@ -21,7 +21,7 @@ if(isset($_FILES['category_photo'])) {
 }
 
 if($connection) {
-    mysqli_query($connection, "INSERT INTO `categories` (`id`, `category_name`, `parent`, `category_photo`) VALUES (NULL, '$category_name', '$category_parent', '$category_photo');"); 
+    mysqli_query($connection, "INSERT INTO `product` (`id`, `name`, `category`, `photo`) VALUES (NULL, '$name', '$category', '$photo');"); 
 }
 
 function can_upload($file){
@@ -48,18 +48,18 @@ function make_upload($file){
 	// формируем уникальное имя картинки: name и случайное число
 	$name = $file['name'];
 	// формируем путь к папке загрузки
-	$uploaddir = '../img/categories/';
+	$uploaddir = '../../../img/product/';
     $uploadfile = $uploaddir . basename($name);
 	// переносим файл в папку
 	move_uploaded_file($file['tmp_name'], $uploadfile);
 
-	$GLOBALS['category_photo'] = $name;
+	$GLOBALS['photo'] = $name;
 }
 
 
 
 mysqli_close($connection);
-echo '<script>location.replace("/admin/");</script>';
+echo '<script>location.replace("/admin/#product");</script>';
 // header('Location: http://admindjalgan.ru/admin/');
 exit;
 
